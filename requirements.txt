@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+pymupdf
+python-dotenv
+tqdm
+selenium
+webdriver-manager
+langchain
+langchain-community
+langchain-huggingface
+chromadb
+sentence-transformers

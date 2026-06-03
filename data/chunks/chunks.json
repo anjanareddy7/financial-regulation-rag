@@ -1,0 +1,1922 @@
+[
+  {
+    "chunk_id": "1749647139924_chunk_0",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 0,
+    "total_chunks": 110,
+    "text": "Frequently Asked Questions (FAQs) on Cybersecurity and Cyber\nResilience Framework (CSCRF) for SEBI REs and Framework for\nAdoption of Cloud Services by SEBI REs\n1. Securities and Exchange Board of India (SEBI) has issued ‘Cybersecurity and\nCyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)’ vide\ncircular SEBI/HO/ ITD-1/ITD_CSC_EXT/P/CIR/2024/113 dated August 20, 2024.\nThe key objective of CSCRF is to address evolving cyber threats, to align with the"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_1",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 1,
+    "total_chunks": 110,
+    "text": "industry standards, to encourage efficient audits, and to ensure compliance by\n2. In light of the queries and suggestions received and consultation held with REs,\nFrequently Asked Questions (FAQs) have been prepared on CSCRF and\nFramework for Adoption of Cloud Services by SEBI REs.\n3. The objective of the FAQs is to provide better clarity on several concepts related\nto CSCRF. For ease of reference, these FAQs are categorised into subjects under\nfollowing heads:\n3.1. Governance and CISO related guidelines"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_2",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 2,
+    "total_chunks": 110,
+    "text": "following heads:\n3.1. Governance and CISO related guidelines\n3.2. Thresholds for REs’ categorization\n3.3. Asset Inventory and Classification of Critical/ Non-critical systems\n3.4. VAPT and Patch Management\n3.5. Cyber Audit and Timelines\n3.6. Cyber Capability Index (CCI)\n3.7. Software Bill of Materials (SBOM)\n3.8. Outsourcing related guidelines\n3.9. Cloud Service Providers (CSPs) and Hosted Services\n3.10. COTS product testing\n3.11. Log Management, Data Security, and other Protect guidelines"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_3",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 3,
+    "total_chunks": 110,
+    "text": "3.12. ISO 27001 certification\n3.13. Security Operations Centre (SOC) and Market-SOC (M-SOC)\n3.14. Threat Intelligence\n3.15. DC-DR Drills\n3.16. Response and Recovery\n3.17. Classification and Handling of Cybersecurity Incidents\n4. These FAQs are in the nature of providing guidance on the Cybersecurity and\nCyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs), and any\nexplanation/ clarification provided herein should neither be regarded as an"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_4",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 4,
+    "total_chunks": 110,
+    "text": "interpretation of CSCRF nor be treated as a binding opinion/ decision of the\nSecurities and Exchange Board of India. Different facts or conditions may entail\ndifferent interpretations. For full particulars of the CSCRF governing cybersecurity\nand cyber resilience, please refer to actual text of the Acts/ Regulations/ Circulars\nappearing under the legal framework section on the SEBI website.\nJune 11, 2025\nFrequently Asked Questions (FAQs)\nCybersecurity\nResilience Framework (CSCRF) for"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_5",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 5,
+    "total_chunks": 110,
+    "text": "Cybersecurity\nResilience Framework (CSCRF) for\nAdoption of Cloud Services by SEBI\nThese FAQs aim to address the most common queries/ questions SEBI REs have\nabout the CSCRF and Framework for Adoption of Cloud Services by SEBI REs in a\nsimple and understandable manner.\nFAQs have been consolidated into following categories:\nGovernance and CISO related guidelines\nThresholds for REs’ categorization\nAsset Inventory and Classification of Critical/ Non-critical systems\nVAPT and Patch Management"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_6",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 6,
+    "total_chunks": 110,
+    "text": "VAPT and Patch Management\nCyber Audit and Timelines\nCyber Capability Index (CCI)\nSoftware Bill of Materials (SBOM)\nOutsourcing related guidelines\nCloud Service Providers (CSPs) and Hosted Services\n10. COTS product testing\n11. Log Management, Data Security, and other Protect guidelines\n12. ISO 27001 certification\n13. Security Operations Centre (SOC) and Market-SOC (M-SOC)\n14. Threat Intelligence\n15. DC-DR Drills\n16. Response and Recovery\n17. Classification and Handling of Cybersecurity Incidents"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_7",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 7,
+    "total_chunks": 110,
+    "text": "17. Classification and Handling of Cybersecurity Incidents\nGovernance and CISO related guidelines\n1. Are banks required to submit a certificate of compliance to SEBI? What\nspecific aspects of the CSCRF or RBI cybersecurity framework need to be\ncovered in the certificate?\nAnswer: Banker to an Issue (BTI) and SCSBs shall submit a certificate of\ncompliance to SEBI on the cybersecurity guidelines issued by RBI. Banks which\nhave taken other SEBI registrations, shall be required to comply with CSCRF (as"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_8",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 8,
+    "total_chunks": 110,
+    "text": "applicable). However, as clarified in Q.29, the controls shall apply only to IT\ninfrastructure, network, application, software, etc. being used for SEBI RE related\nactivities.\n2. As per RBI’s directions, Bank’s CISO are reporting to their Executive\nDirector (ED) in charge of Risk function. However, CSCRF mandates CISOs’\nof MIIs and Qualified REs to report directly to the MD/ CEO of their\norganisation. Can this specific exemption be given to such SEBI REs"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_9",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 9,
+    "total_chunks": 110,
+    "text": "(operating also as Banks under RBI regulations) to make it uniform?\nAnswer: As per CSCRF guidelines, the level, grade, and standing of CISO shall\nbe at least equivalent to CTO/ CIO for MIIs and Qualified REs. Accordingly, the\nreporting of CISO to ED or MD/ CEO as per organisational structure shall be\ndeemed compliant.\n3. Can a group-level CISO be designated as the effective CISO for multiple\nentities within the same group, especially for small-size, QRE, and mid-size"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_10",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 10,
+    "total_chunks": 110,
+    "text": "Answer: Yes, group level CISO can be designated as the effective CISO for\nmultiple entities within the same group.\n4. CSCRF requires REs to mandatorily have a CISO. Is it acceptable for REs to\nhire a part-time CISO who simultaneously holds CISO position at multiple\nAnswer: For the ease of compliance without any additional burden, REs are\nallowed to onboard a remote CISO, provided the personnel is only dedicated to\none specific organisation and not managing more than one organisations"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_11",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 11,
+    "total_chunks": 110,
+    "text": "simultaneously. Further, REs are restricted to onboard part-time CISO.\nThresholds for REs’ categorization\n5. SEBI Circular ‘Clarifications to Cybersecurity and Cyber Resilience\nFramework (CSCRF) for SEBI Regulated Entities (REs)’ (SEBI/HO/ ITD-\n1/ITD_CSC_EXT/P/CIR/2025/60) dated April 30, 2025 has revised the criteria\nand thresholds for Depositories Participants (DPs) categorization? Table 2\nin aforementioned circular mentions a criteria as ‘Other than Stock Brokers’."
+  },
+  {
+    "chunk_id": "1749647139924_chunk_12",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 12,
+    "total_chunks": 110,
+    "text": "What all entities are covered under this criteria?\nAnswer: It is clarified that row 2 in Table 2 of the aforementioned SEBI circular\nwhere criteria is given as ‘Other than Stock Brokers’ covers following entities:\nBanks, NBFC, Mutual Funds, RTA, Financial Institutions, Custodians, Clearing\nCorporations, Public Financial Institution, State Finance Corporation.\nAccordingly, the updated Table 2 of the aforementioned circular is as follows:\nDP also registered as\nClassification for\nDepository\nParticipant"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_13",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 13,
+    "total_chunks": 110,
+    "text": "DP also registered as\nClassification for\nDepository\nParticipant\nStock Broker\nTo be classified as per\nthe criteria followed\nfor stock brokers.\nInstitution,\nCustodians,\nCorporations,\nPublic Financial Institution,\nState Finance Corporation\nQualified RE\nFinancial Institution:  As per 2(39) of Companies Act 2013, \"financial institution\"\nincludes a scheduled bank, and any other financial institution defined or notified\nunder the Reserve Bank of India Act, 1934 (2 of 1934)"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_14",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 14,
+    "total_chunks": 110,
+    "text": "under the Reserve Bank of India Act, 1934 (2 of 1934)\nState Financial Corporation: Corporation/Institution established under the\nprovisions of section 3 of the State Financial Corporations Act, 1951 (63 of 1951)\nPublic Financial Institution: Institutions falling under the definition of public financial\ninstitutional as provided in section 2(72) of the Companies Act, 2013\n6. Does the criteria and thresholds for Stock Brokers issued vide SEBI circular\nSEBI/HO/ITD-1/\nITD_CSC_EXT/P/CIR/2025/60\n‘Clarifications"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_15",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 15,
+    "total_chunks": 110,
+    "text": "SEBI/HO/ITD-1/\nITD_CSC_EXT/P/CIR/2025/60\n‘Clarifications\nCybersecurity and Cyber Resilience Framework (CSCRF) for SEBI\nRegulated Entities (REs)’ dated April 30, 2025, cover both Client-based stock\nbrokers and proprietary stock brokers?\nAnswer: The criteria mentioned in Clause 2.1 in SEBI circular SEBI/HO/ITD-1/\nITD_CSC_EXT/P/CIR/2025/60 ‘Clarifications to Cybersecurity and Cyber\nResilience Framework (CSCRF) for SEBI Regulated Entities (REs)’ dated April"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_16",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 16,
+    "total_chunks": 110,
+    "text": "30, 2025, shall be applicable for client-based stock brokers in accordance with\ncomputation of trading volume as mentioned below:\na. Each trading member’s Aggregate turnover (Gross Level) during the\nFinancial Year (April 1 to March 31) across Equity, Equity Derivative,\nCurrency Derivatives and Commodity derivatives shall be considered.\nb. For Equity Segment, Gross Traded Value = Buy Value + Sell Value\n(excluding Auction trades), shall be considered."
+  },
+  {
+    "chunk_id": "1749647139924_chunk_17",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 17,
+    "total_chunks": 110,
+    "text": "(excluding Auction trades), shall be considered.\nc. For all future contracts in Derivative Segments, Gross Traded Value = Buy\nValue + Sell Value, shall be considered.\nd. For all option contracts in Derivative segments, Gross Traded Value =Buy\nPremium Value + Sell Premium Value, shall be considered.\n6.1. For proprietary brokers (brokers who do not have any client), the following\ncategorization shall be applicable:\nParameters\ncertification\ncollateral/\nCorporations\nCrores and"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_18",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 18,
+    "total_chunks": 110,
+    "text": "Parameters\ncertification\ncollateral/\nCorporations\nCrores and\n6.2. Further, in case trading member/ RE is engaged in Clientele as well as\nProprietary Trading, such brokers shall be considered as client-based stock\nbrokers and accordingly, the categorization provided vide SEBI circular\nSEBI/HO/ITD-1/\nITD_CSC_EXT/P/CIR/2025/60\n‘Clarifications\nCybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated\nEntities (REs)’ dated April 30, 2025, shall prevail."
+  },
+  {
+    "chunk_id": "1749647139924_chunk_19",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 19,
+    "total_chunks": 110,
+    "text": "Entities (REs)’ dated April 30, 2025, shall prevail.\n7. How will SEBI address cases where the entity’s categorization changes mid-\nAnswer: Please refer Section 2 of CSCRF ‘Thresholds for REs’ categorization’.\nThe category of REs shall be decided at the beginning of the financial year based\non the data of the previous financial year. Once the category of RE is decided, RE\nshall remain in the same category throughout the financial year irrespective of any\nchanges in the parameters during the financial year."
+  },
+  {
+    "chunk_id": "1749647139924_chunk_20",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 20,
+    "total_chunks": 110,
+    "text": "changes in the parameters during the financial year.\n8. If a Bank is having DP license under SEBI regulations, will the controls apply\nonly to DP-related activities or to the entire IT infrastructure of the bank?\nAnswer: The controls shall apply only to IT infrastructure, network, application,\nsoftware, etc. being used for SEBI RE related activities.\nAsset Inventory and Classification of Critical/ Non-critical systems\n9. Can the IT asset inventory be maintained manually (e.g., using Excel)"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_21",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 21,
+    "total_chunks": 110,
+    "text": "instead of implementing an ITSM tool for organizations with minimal IT\nAnswer: While automated ITSM tools provide greater efficiency and accuracy,\nsmaller REs having lean structure with minimal IT infrastructure may maintain\nmanual inventories, provided periodic updates and compliance with SEBI CSCRF\nasset management requirements are being ensured.\n10. What are the parameters for classifying Critical/ Non-critical systems?\nAnswer: The definition of ‘Critical Systems’ has been provided in the definitions"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_22",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 22,
+    "total_chunks": 110,
+    "text": "section. The same definition should be used for classifying REs’ IT assets as\ncritical/ non-critical. However, systems/ tools such as survey forms, loan\ncalculators, etc. are internet-facing but still non-critical for REs business\noperations. Therefore, classification of such systems/ tools may be left to REs\nbased on the risk assessment of such applications. Further, please refer CSCRF\n‘Identify: Asset Management: standard 4’ with their corresponding guidelines"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_23",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 23,
+    "total_chunks": 110,
+    "text": "which states that Board/ Partners/ Proprietor shall approve the list of critical\nsystems. In case of any ambiguity, REs may take inputs from their respective ‘IT\nCommittee’ (please refer CSCRF Section 3 ‘IT Committee for REs’: Page 44).\n11. Is it mandatory for REs to maintain all IT assets (hardware, software, digital\nassets, APIs, etc.) under a single ITSM tool, or can they use multiple tools\nbased on feasibility and accessibility?"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_24",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 24,
+    "total_chunks": 110,
+    "text": "based on feasibility and accessibility?\nAnswer: CSCRF does not explicitly mandate the use of a single ITSM tool for\nmanaging IT inventory. REs have the flexibility to use multiple tools for asset\nmanagement based on feasibility and accessibility, provided they maintain\ncomprehensive, up-to-date and accurate inventory. Please refer CSCRF ‘Identify:\nAsset Management: standard 1 and 2’ with their corresponding guidelines.\n12. How should REs classify systems that are connected to critical systems but"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_25",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 25,
+    "total_chunks": 110,
+    "text": "do not directly impact core business operations (e.g., ancillary systems)?\nAnswer: The definition of ‘Critical Systems’ has been provided in CSCRF\n‘Definitions’ section. The same definition should be used for classifying REs’ IT\nassets as critical/ non-critical. Further, REs should consider and assess factors\nsuch as impact of system failure on operations, sensitivity of data processed,\npotential security risks (e.g. PII data breach) and their connectivity to critical"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_26",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 26,
+    "total_chunks": 110,
+    "text": "systems before classifying systems as critical/ non-critical.\n13. What is the expected approach for maintaining an inventory of\ncryptographic assets and prioritizing critical assets for Post-Quantum\nCryptography (PQC) migration?\nAnswer: It is envisaged that quantum computing may be a reality in near future\nand it may be able to break the encryption schemes widely used today. Thus,\nquantum computing may evolve into one of the biggest cybersecurity threats and"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_27",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 27,
+    "total_chunks": 110,
+    "text": "it may potentially expose financial systems to cyber-attacks. While it is still\nuncertain when quantum technology would be adopted on a large scale, its\npotential as a cyber-threat to the securities market ecosystem is already a matter\nof concern. Therefore, CSCRF emphasizes the importance of maintaining a\ncomprehensive inventory of cryptographic assets. REs should identify and\ndocument all assets utilizing cryptographic mechanisms, including data in transit"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_28",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 28,
+    "total_chunks": 110,
+    "text": "and at rest, communication channels, and authentication systems. The inventory\nshall describe what cryptography is used by which application for what purpose.\nThe inventory shall include keys, certificates, algorithms, etc. Prioritization for PQC\nmigration should be based on the risk assessment, criticality of the asset,\nsensitivity of the information it protects, and its exposure to potential threats.\nVAPT and Patch Management\n14. What is periodicity of Vulnerability Assessment and Penetration Testing"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_29",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 29,
+    "total_chunks": 110,
+    "text": "(VAPT) and Cyber audit for Qualified Stock Brokers (QSBs)?\nAnswer: SEBI vide circular ‘Enhanced obligations and responsibilities on\n(SEBI/HO/MIRSD/MIRSD-PoD-\n1/P/CIR/2023/24) dated February 06, 2023 has designated certain stock brokers\nas a Qualified Stock Brokers (QSBs) to meet enhanced obligations and\nresponsibilities. Therefore, the periodicity of VAPT and cyber audit for QSBs shall\nbe half-yearly irrespective of the category they fall in as per CSCRF."
+  },
+  {
+    "chunk_id": "1749647139924_chunk_30",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 30,
+    "total_chunks": 110,
+    "text": "15. What is the expected timeline for addressing vulnerabilities related to third-\nparty applications or dependencies that are outside the control of REs?\nAnswer: The timeline for closure of vulnerabilities identified (irrespective of third-\nparty applications or in-house) during VAPT activity is within three (3) months of\nsubmission of VAPT report. For more details, please refer Table 19 in CSCRF.\nREs are encouraged to include ‘VAPT finding closure’ related timelines in their"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_31",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 31,
+    "total_chunks": 110,
+    "text": "SLA with third-party service providers to remain complied with CSCRF. REs may\nalso consider compensatory controls like virtual patching as mentioned under\nGuideline 6 of ‘CSCRF: Protect: Maintenance: Standard 3’. Further, REs may also\nconsider virtual patching guidelines from CERT-In where OEM patches have\nlonger period of implementation subject to the confirmation from their respective\n‘IT Committees’.\n16. How should vulnerabilities that are identified but not overdue be reported,"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_32",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 32,
+    "total_chunks": 110,
+    "text": "and what is the expected format for such reporting?\nAnswer: Please refer Section 4.3. ‘VAPT’ under ‘CSCRF Compliance, Audit\nReport Submission, and Timelines’ in CSCRF. It mentions VAPT related reporting,\nperiodicity, and timelines. Further, the reporting format shall be as per CSCRF:\nAnnexure-A.\n17. What are the timelines for closure of finding identified during VAPT activity?\nAnswer: Please refer Section 4.3. ‘VAPT’ under ‘CSCRF Compliance, Audit"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_33",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 33,
+    "total_chunks": 110,
+    "text": "Report Submission, and Timelines’ in CSCRF. It mentions VAPT related reporting,\nperiodicity, and timelines. However, it is being clarified that:\na. Vulnerabilities identified due to non-implementation of patches and falling\nunder ‘high’ severity would be validated for non-compliances against the\npatch management timelines (1 week; please refer standard PR.MA.S3 and\nthe corresponding guidelines specified under PR.MA: Guidelines in Part II\nof CSCRF). Such vulnerabilities can be discovered proactively by REs"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_34",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 34,
+    "total_chunks": 110,
+    "text": "through OEMs website or notification from OEMs as per arrangements\nb. Other vulnerabilities observations apart from implementation of patches\nshall be validated for non-closure against the VAPT observation closure\ntimelines (3 months). However, even for the closure of such findings,\ngraded approach (based on the criticality; please refer section 4.3. ‘VAPT’\nunder ‘CSCRF Compliance, Audit Report Submission, and Timelines’) shall\nbe followed."
+  },
+  {
+    "chunk_id": "1749647139924_chunk_35",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 35,
+    "total_chunks": 110,
+    "text": "be followed.\n18. What are the patch deployment timelines for applications deployed on\nAnswer: Requirements for patch management are provided at standard\nPR.MA.S3 and the corresponding guidelines specified under PR.MA: Guidelines\nin Part II of CSCRF (Page 116-117).\nThe responsibilities of CSP and RE for closure of vulnerabilities and deployment\nof corresponding patches shall be clearly demarcated in the contractual\nagreement.\n19. Is it mandatory to test patches in a non-production environment before"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_36",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 36,
+    "total_chunks": 110,
+    "text": "deploying them to production and DR sites?\nAnswer: CSCRF emphasizes the importance of testing patches in non-production\nenvironment before deploying them to DC and DR. This practice ensures that\npatches do not introduce unforeseen issues or conflicts in production\nenvironments, thereby maintaining stability and integrity.\nCyber Audit and Timelines\n20. Whether the periodicities mentioned in the CSCRF are based on calendar\nyear or financial year?"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_37",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 37,
+    "total_chunks": 110,
+    "text": "year or financial year?\nAnswer: All the periodicities mentioned in the CSCRF are based on financial year.\n21. What should be the mechanism of reporting the compliances to SEBI?\nAnswer: The reporting of the compliances for the Framework for Adoption of\nCloud Services shall be done to the authority as per the existing mechanism of\nreporting for Cybersecurity Audit.\nThe cyber audit periodicity for REs is specified in Table 21 of section 4 (CSCRF"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_38",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 38,
+    "total_chunks": 110,
+    "text": "Compliance, Audit Report Submission, and Timelines) of the Cybersecurity and\nResilience\n1/ITD_CSC_EXT/P/CIR/2024/113] dated August 20, 2024.\nFurther, the reporting authority for cyber audit report submission is specified in\nTable 23 of section 4 of CSCRF.\n22. What is applicable audit timelines for SEBI REs w.r.t. CSCRF compliance and\ncyber audit?\nAnswer: Please refer Section 4.4. ‘Cyber Audit’ under ‘CSCRF Compliance, Audit\nReport Submission, and Timelines’ in CSCRF. To verify the compliances with"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_39",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 39,
+    "total_chunks": 110,
+    "text": "CSCRF, REs shall conduct the cyber audit after the end of audit period. For\nexample: REs who have been mandated to conduct cyber audit once in a year,\nsuch REs shall the start the cyber audit for the period April’2025-March’2026 after\nMarch’2026.\n23. Which SEBI circular(s) shall be followed for audit of the period (April’2024-\nMarch’2025) or (April’2024-September’2024 and October’2024-March’2025)\nas per the applicability?\nAnswer: Please refer Clause 10 of ‘Clarifications to Cybersecurity and Cyber"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_40",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 40,
+    "total_chunks": 110,
+    "text": "Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)’ vide SEBI\ncircular SEBI/HO/ITD-1/ITD_CSC_EXT/P/CIR/ 2025/60 dated April 30, 2025.\nTherefore, any cyber audit conducted for audit period from FY 2025-26 onwards\nshall be as per the circular SEBI/HO/ITD-1/ITD_CSC_EXT/P/ CIR/2024/113 dated\nAugust 20, 2024, read along with the clarifications issued.\nREs have flexibility to undertake cyber audit for the period (April’2024-March’2025)"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_41",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 41,
+    "total_chunks": 110,
+    "text": "or (April’2024-September’2024 and October’2024-March’2025), as applicable, in\naccordance with CSCRF or previously issued SEBI cybersecurity-related\ncirculars.\n24. How should entities with multiple licenses (e.g. bank/ broker/ mutual fund)\nprioritize their category of compliance? Should the largest business by\nrevenue dictate the overall entity’s classification?\nAnswer: Please refer point 23 of CSCRF Section 2 ‘Thresholds for REs’"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_42",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 42,
+    "total_chunks": 110,
+    "text": "categorization’ which mentions that in case an RE is registered under more than\none category of REs, then the provision of highest category under which such an\nRE falls shall be applicable to that RE.\n25. A services where licenses have been obtained but the service is not\noperational, does the bank still need to comply with the relevant provisions\nof the circular?\nAnswer: The provisions of the circulars are applicable to all those intermediaries"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_43",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 43,
+    "total_chunks": 110,
+    "text": "who are registered with SEBI in the capacity of intermediary. Whether the services\nof the intermediaries are operational or not it is their business decisions, the\nprovision may continue to apply.\n26. If a cloud provider’s “India region” routes encryption key management\nrequests through a foreign country, does this violate SEBI’s data\nsovereignty expectations?\nAnswer: Yes, such routing may violate SEBI’s data sovereignty expectations. The"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_44",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 44,
+    "total_chunks": 110,
+    "text": "framework mandates that encryption keys and key management operations must\nbe handled within the boundaries of India to ensure compliance with regulatory\nrequirements. REs should assess and verify the key management architecture of\ntheir CSPs and adopt solutions like Bring Your Own Key (BYOK) to maintain full\ncontrol over encryption keys. It may be noted that SEBI is doing an active\nconsultation to finalise the guidelines related to Data Localisation requirements."
+  },
+  {
+    "chunk_id": "1749647139924_chunk_45",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 45,
+    "total_chunks": 110,
+    "text": "27. If RE having business in other sectors/ domains also, does the audit\ncoverage includes entire IT infrastructure/ software/ applications of the RE\nor only limited to the IT infrastructure/ software/ application under the\npurview of SEBI?\nAnswer: The audit coverage shall be limited to RE’s IT infrastructure/ software/\napplications under the purview of SEBI. However, this shall be applicable only if\ninfrastructure/ software/ applications are properly segregated. If there are any"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_46",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 46,
+    "total_chunks": 110,
+    "text": "ancillary/ connected systems used for accessing/ communicating with systems\nunder SEBI purview, those systems should also be covered under audit against\n28. Are open-source security testing tools along with licensed tools permissible\nfor auditors?\nAnswer: The tools used by auditors (irrespective of licensed or open-sourced)\nshall be permissible as long as it is allowed to use those tools for commercial\npurposes without violating their terms of usage."
+  },
+  {
+    "chunk_id": "1749647139924_chunk_47",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 47,
+    "total_chunks": 110,
+    "text": "purposes without violating their terms of usage.\n29. Are there any restrictions on hiring auditors who provided consulting\nservices to the RE in past two years?\nAnswer: Yes, please refer CSCRF Annexure-D ‘Audit Guidelines: Auditor\nSelection Norms’.\nCyber Capability Index (CCI)\n30. CSCRF mandates MIIs and Qualified REs to develop automated tool and\nsuitable dashboards for submitting automated compliance. What is the\nsignificance for this requirement?"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_48",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 48,
+    "total_chunks": 110,
+    "text": "significance for this requirement?\nAnswer: CSCRF has mentioned that MIIs and Qualified REs shall build an\nautomated tool and suitable dashboard (preferably integrated with log aggregator)\nfor submitting compliance. Automated dashboard integrated with log aggregator\nprovides REs the flexibility to streamline their reporting and compliances and free\nfrom manual interventions and errors. It is also one of the parameters marked for\nCyber Capability Index (CCI)."
+  },
+  {
+    "chunk_id": "1749647139924_chunk_49",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 49,
+    "total_chunks": 110,
+    "text": "Cyber Capability Index (CCI).\n31. How does the Cyber Capability Index (CCI) assessment to be conducted by\nMIIs and Qualified REs?\nAnswer: MIIs shall conduct third-party assessment of their cyber resilience using\nCCI on a half-yearly basis. Qualified REs shall do self-assessment of their cyber\nresilience using CCI on a yearly basis. Please refer Standard 4 of ‘Governance:\nOversight (GV.OV)’, corresponding guidelines, and Annexure-K.\n32. How do decimal values handled in CCI score or SOC efficacy? How should"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_50",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 50,
+    "total_chunks": 110,
+    "text": "REs calculate score if an undefined value is obtained during calculation?\nAnswer: Score can be taken in decimal value up to two decimal places. Further,\nif an undefined value is obtained during any calculation, then the maximum or\nminimum (depending on parameter and corresponding formula) marks of that\nparticular category shall be used for further calculation.\nFor example:\nIn parameter 14 of CCI (Table 27), the formula is (Number of individuals’"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_51",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 51,
+    "total_chunks": 110,
+    "text": "screened/total number of individuals having access to organization’s\ninformation and information systems) ×100. Here, suppose if both the\nparameters are zero (0), then zero marks shall be awarded for this\nparameter.\nIn parameter 2 of CCI (Table 27), the formula is (Number of vulnerabilities\nmitigated/ Number of vulnerabilities identified)×100. Here, suppose if both\nthe parameters are zero (0), then maximum marks shall be awarded for this\nparameter."
+  },
+  {
+    "chunk_id": "1749647139924_chunk_52",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 52,
+    "total_chunks": 110,
+    "text": "parameter.\nHowever, it may be noted that highest score (if achieved) for any category will be\nequivalent to weightage of that particular category.\n33. If an entity is partially complaint, for example RE achieves a score of 30%\nagainst the target value of 50% where 5 marks have been allotted for the\nparameter, then how will the score be calculated in such cases for Cyber\nCapability Index (CCI) (Annexure-K)?\nAnswer: Partial scoring is allowed for the CCI assessment purpose. Taking the"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_53",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 53,
+    "total_chunks": 110,
+    "text": "above-mentioned example, RE shall be awarded 3 marks in such case.\n34. How to make the submission of specific standards such as Cyber Capability\nIndex (CCI)? For ex: the periodicity of Red Teaming exercise is half-yearly\nof MIIs and Qualified REs. However, for few of the Qualified REs, the\nperiodicity of Cyber audit is annual.\nAnswer: All the periodicities and compliances are based on financial year.\nFurther, it should be noted that the compliances of all standards and guidelines"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_54",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 54,
+    "total_chunks": 110,
+    "text": "shall be submitted along with cyber audit report to the respective reporting\nauthority.\nSoftware Bill of Materials (SBOM)\n35. Which software are covered under SBOM requirement? Is SBOM mandatory\nfor off-the-shelf software or only for custom-developed applications? Is the\nSBOM requirement limited to applications installed in REs' data centres, or\ndoes it also apply to SaaS applications used by the organization?\nAnswer: SBOM shall be obtained for all the software/ applications required for"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_55",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 55,
+    "total_chunks": 110,
+    "text": "core and critical business operations. Please refer standard 5 under Governance:\nCybersecurity Supply Chain Risk Management (GV.SC.S5) and its corresponding\nguidelines.\n36. Do REs need to obtain SBOMs for in-house developed applications, or is\nthis requirement limited to third-party software?\nAnswer: All software/ applications required for core and critical business\noperations (irrespective of in-house or third-party) shall have a SBOM which"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_56",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 56,
+    "total_chunks": 110,
+    "text": "documents all (but not limited to) components, dependencies, data relationships,\n37. How should REs handle the procurement of SBOMs for legacy systems or\nproprietary software where vendors are unwilling to provide such details?\nAnswer: SBOM has become a key component for software security management.\nTherefore, REs should obtain SBOM for all software/ applications used in core and\ncritical business operations of the RE. Please refer standard 5 under Governance:"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_57",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 57,
+    "total_chunks": 110,
+    "text": "Cybersecurity Supply Chain Risk Management and its corresponding guidelines\nwhich states that in case the SBOM cannot be obtained for the legacy or\nproprietary systems, the Board/ Partners/ Proprietor of the organization shall\napprove the same with proper limitation, rationale, and risk management\nOutsourcing related guidelines\n38. Will SEBI hold RE accountable if a third-party vendor breaches contract and\nviolates CSCRF guidelines?"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_58",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 58,
+    "total_chunks": 110,
+    "text": "violates CSCRF guidelines?\nAnswer: REs shall be solely accountable for all aspects related to third-party\nservices including (but not limited to) confidentiality, integrity, availability,\nnonrepudiation, security of their data and logs, and ensuring compliance with laws,\nregulations, circulars, etc. issued by SEBI/ Government of India. Accordingly, REs\nshall be responsible and accountable for any violations of the same.\n39. SEBI outsourcing guidelines mentions: Core IT support infrastructure/"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_59",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 59,
+    "total_chunks": 110,
+    "text": "activities for running the core activities of exchanges. Some REs are reading\nthis as a restriction on REs to engage with CSP, where the RE does not own\nthe environment. SEBI Cloud adoption circular does not clarify this but\ninstead suggests that the framework will be seen as an addition to existing\ncirculars/ guidelines and advisories. Can REs host their critical applications\non the cloud?\nAnswer: Please refer clause 5(i) and 5(iii) of SEBI Cloud Adoption Framework"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_60",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 60,
+    "total_chunks": 110,
+    "text": "which mandates REs to evaluate the need, implications (financial, regulatory,\netc.), risks, benefits, etc. of adopting cloud computing. The RE shall also conduct\nits due diligence with respect to CSPs beforehand and on a periodic basis to\nensure that legal, regulatory, business objectives, etc. of the RE are not\nhampered. The due diligence shall be risk-based depending on the criticality of\nthe data/ services /operations planned to be on boarded on cloud. Further, the"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_61",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 61,
+    "total_chunks": 110,
+    "text": "analysis (including but not limited to comparative analysis, SWOT analysis, etc.)\nshall also be conducted on the type of cloud model to be adopted. The analysis\nshould include relevant factors like (including but not limited to) the risks\nassociated with various models, need, suitability, capability of the organization,\netc. The above mentioned evaluations / analyses should be conducted keeping in\nmind that although the IT services/ functionality can be outsourced (to a CSP),"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_62",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 62,
+    "total_chunks": 110,
+    "text": "REs are ultimately accountable for all aspects related to the cloud services\nadopted by it including but not limited to availability of cloud applications,\nconfidentiality, integrity and security of RE’s data and logs, and ensuring RE’s\ncompliance with respect to the applicable laws, rules, regulations, circulars, etc.\nissued by SEBI/ Government of India/ respective state government. Accordingly,\nthe RE shall be held accountable for any violation of the same. The Cloud risk"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_63",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 63,
+    "total_chunks": 110,
+    "text": "management approach shall provide details regarding the various risks of cloud\nadoption such as technical, legal, business, regulatory etc., and the\ncommensurate risk mitigation controls which should be proportionate to the\ncriticality and sensitivity of the data/operations to be on-boarded on the cloud.\nTherefore, a comprehensive risk management should be undertaken by the RE to\ncontinually identify, monitor, and mitigate the risks posed by cloud computing."
+  },
+  {
+    "chunk_id": "1749647139924_chunk_64",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 64,
+    "total_chunks": 110,
+    "text": "Further, while outsourcing the activities, following SEBI circulars related to\noutsourcing (as applicable), but not limited to, shall be complied with:\nTitle of the SEBI Circular\nSep 13, 2017\nOutsourcing of activities by Stock Exchanges and Clearing\nCorporations\nDec 09, 2015\nOutsourcing by Depositories\nDec 15, 2011\nGuidelines on Outsourcing of Activities by Intermediaries\n40. What are the expectations regarding the cybersecurity supply chain risk\nmanagement strategy/process for REs?"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_65",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 65,
+    "total_chunks": 110,
+    "text": "management strategy/process for REs?\nAnswer: REs shall establish a robust cybersecurity supply chain risk management\nstrategy that includes:\nPut in place appropriate third-party service providers risk assessment\nand controls proportionate to their criticality/ risk.\nService Level Agreements (SLAs) and contractual obligations\nThird-party service providers shall be mandated to follow similar or\nhigher standards of information security."
+  },
+  {
+    "chunk_id": "1749647139924_chunk_66",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 66,
+    "total_chunks": 110,
+    "text": "higher standards of information security.\n41. Does obtaining source code of all critical applications mandatory for SEBI\nAnswer: Please refer CSCRF ‘Protect: Data Security: standard 6’ with\ncorresponding guidelines on Page 108-109 of CSCRF. However, it is being\nclarified that REs shall obtain the source code of only those critical applications\nwhich have been developed and intended for their sole use and purpose only.\nWhere obtaining of the source code is not possible, REs shall put in place a source"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_67",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 67,
+    "total_chunks": 110,
+    "text": "code escrow arrangement or other equivalent arrangements to adequately\nmitigate the risk of default by the third-party service provider. REs shall ensure\nthat all product updates and patches/ fixes are included in the source code escrow\narrangement.\nCloud Service Providers (CSPs) and Hosted Services\n42. What is the obligation for auditing the CSP’s subcontractors/vendors?\nAnswer: Cloud may engage non-material subcontractors to support in their"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_68",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 68,
+    "total_chunks": 110,
+    "text": "operations periodically. Separately, service providers also utilize sub-contractors\nfor day-to-day upkeep activities, such as for janitorial services. In view of this multi-\nlayer environment in which CSPs operate, this requirement should be strictly\nlimited to material subcontractors. For clarification, a material subcontractor is a\nsubcontractor to whom a service provider has subcontracted a portion of their\nServices, where the subcontractor’s role is such that its failure to perform would"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_69",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 69,
+    "total_chunks": 110,
+    "text": "have a significant effect on service provider’s ability to provide its services in\naccordance with the Service Providers obligations under their agreement with the\n43. How does the CSP provide Audit rights to the Regulated Entities?\nAnswer: Please refer clause 4(ii) in SEBI Cloud Adoption Framework which\nmandates to have an explicit and unambiguous delineation/ demarcation of\nresponsibilities with respect to all activities (including but not limited to technical,"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_70",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 70,
+    "total_chunks": 110,
+    "text": "managerial, governance related, etc.) of the cloud services between the RE and\nFurther, refer clause 1(vi).2 of SEBI Cloud Adoption Framework which mandates\nREs to conduct regular audits/ VAPTof its cloud deployments.\nWhenever required (by RE/ SEBI), the CSP shall provide visibility to RE as well\nas SEBI into CSP’s infrastructure and processes, and its compliance to applicable\npolicies and regulations issued by SEBI/ Government of India/ respective state\ngovernment."
+  },
+  {
+    "chunk_id": "1749647139924_chunk_71",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 71,
+    "total_chunks": 110,
+    "text": "government.\nPlease refer Principle 7: Contractual and Regulatory Obligations of SEBI Cloud\nAdoption Framework.  The contractual/agreement terms between RE and CSP\nshall clearly specify the provisions for sharing audit reports including system audit\nreport, cybersecurity audit report or any other audit report as deemed necessary\nby RE for compliance of SEBI CSCRF and Cloud Adoption Framework.\n44. Can REs leverage to have managed services offered by the CSP if there are"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_72",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 72,
+    "total_chunks": 110,
+    "text": "other open-source alternatives that map to the same solution?\nAnswer: SEBI does not intend to dictate or restrict technology choices of the RE\nthrough these guidelines. The REs needs to assess and manage risks, as\nidentified in the guidelines. There is no mandate to adopt equivalent open source\nsolution through this guideline.\n45. What steps should REs take if a cloud provider’s MeitY empanelment lapses\nmid-contract, but critical workloads are already hosted in their\ninfrastructure?"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_73",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 73,
+    "total_chunks": 110,
+    "text": "infrastructure?\nAnswer: The Cloud Adoption framework mandates that REs establish robust\ncontractual agreements with CSPs that ensure ongoing compliance with\nregulatory requirements. In case of a MeitY empanelment lapse, the RE should\nassess risks and develop an action plan that may include the following (but not\nlimited to) - migration to a compliant CSP, renegotiation for compliance measures,\nor invoking exit strategies specified in the agreement. Additionally, regular audits"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_74",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 74,
+    "total_chunks": 110,
+    "text": "should monitor the CSP’s adherence to security and certification requirements.\n46. What escalation mechanisms exist if a cloud provider refuses to share\nforensic evidence during SEBI investigations citing jurisdictional privacy\nAnswer: CSPs must provide data access during investigations. REs must\nestablish clear escalation procedures in service agreements, ensuring CSP\ncooperation in providing forensic evidence. If privacy laws like GDPR conflict with"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_75",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 75,
+    "total_chunks": 110,
+    "text": "Indian requirements, CSPs should have measures to prioritize compliance with\nSEBI regulations for Indian operations.\n47. How do REs verify that PaaS/ SaaS providers claiming compliance with\nSTQC-certified infrastructure do not indirectly utilize non-empaneled\nsubcontractors (e.g., global CDNs or edge networks)?\nAnswer: REs must ensure that the CSP uses only MeitY-empaneled\ninfrastructure for all applicable cloud services. The SEBI framework mandates that"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_76",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 76,
+    "total_chunks": 110,
+    "text": "agreements with PaaS/SaaS providers include clauses ensuring back-to-back\ncompliance by all subcontractors and service providers. REs should conduct\naudits to verify that no non-compliant services are used.\n48. How can REs ensure of STQC certification at the availability zone level when\ncloud providers only allow region selection, not specific data centers?\nAnswer: The Cloud Adoption framework emphasizes that storage and processing"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_77",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 77,
+    "total_chunks": 110,
+    "text": "of data, including logs, must be done within data centres of MeitY-empaneled\nCSPs that hold valid STQC certification or equivalent audit status. While cloud\nproviders typically allow selection at the region level, the Regulated Entity (RE)\nmust obtain assurance from the CSP that all data centres within the chosen region\nmeet STQC certification requirements. Furthermore, REs should document\ncompliance through contractual agreements.\n49. Can stock exchanges and clearing corporation run regulated workloads on"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_78",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 78,
+    "total_chunks": 110,
+    "text": "the cloud?\nAnswer: As per the Cloud Adoption Framework, REs can run their regulated\nworkloads on the cloud on the basis of its business needs and technology risk\nassessment. However, compliance should be ensured with the Framework for\nAdoption of Cloud Services by SEBI Regulated Entities (REs), 2023. It is to be\nnoted that although RE may run regulated workloads on the cloud, RE is solely\naccountable for all aspects related to the cloud services adopted."
+  },
+  {
+    "chunk_id": "1749647139924_chunk_79",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 79,
+    "total_chunks": 110,
+    "text": "50. How do REs verify that PaaS/SaaS providers claiming compliance with\nSTQC-certified infrastructure do not indirectly utilize non-empanelled\nsubcontractors (e.g., global CDNs or edge networks)?\nAnswer: REs must ensure that the CSP uses only MeitY-empanelled\ninfrastructure for all services. Please refer clause 2(ii).3 of SEBI Cloud Adoption\nFramework.\n51. What is the process of empanelment for those IT/SaaS/PaaS service\nproviders who host the applications on their own data centres?"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_80",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 80,
+    "total_chunks": 110,
+    "text": "providers who host the applications on their own data centres?\nAnswer: For service providers who have their own data centres outside India,\ncompliance shall be maintained by the concerned RE against the technical\nspecifications for “Hosted Services” provided in the Cyber Security and Cyber\nResilience\n1/ITD_CSC_EXT/P/CIR/2024/113] dated August 20, 2024.\n52. Is it mandatory for REs to use ANSI/ TIA-942 rated-4 servers for all\nworkloads? Is it acceptable to use Tier-3 servers for development or testing"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_81",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 81,
+    "total_chunks": 110,
+    "text": "Answer: Please refer CSCRF ‘Definitions’ section. The requirement has been\nmandated for hosted services. For development or testing purposes, REs and their\nhosted service provider can use Tier-3 servers as long as it is being ensured that\nthese environment do not contain production data, customer data, etc. However,\ndue caution is emphasized since, in many incidents, it has been observed that the\nattack got originated in development environment and later spread and\ncompromised the production environment."
+  },
+  {
+    "chunk_id": "1749647139924_chunk_82",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 82,
+    "total_chunks": 110,
+    "text": "compromised the production environment.\nCOTS product testing\n53. For COTS or in-house developed software, can REs decide whether to\nconduct DAST or SAST based on their risk assessment, especially for\ninternal-use applications with compensating controls?\nAnswer: For COTS or In-house developed software, REs shall ensure that DAST\nor SAST tests/ audits are being done by CERT-In empanelled IS auditing\norganisation.\nDefinition of COTS1: A software and/or hardware product that is commercially"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_83",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 83,
+    "total_chunks": 110,
+    "text": "ready-made and available for sale, lease, or license to the general public.\nLog Management, Data Security, and other Protect guidelines\n54. What are different types of logs which should be collected, and how should\nREs ensure the integrity and confidentiality of these logs?\nAnswer: Please refer first guideline of PR.AA.S8 (Page 98) mentioned in CSCRF\nwhich states that: REs are advised to ensure that all logs sources are being"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_84",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 84,
+    "total_chunks": 110,
+    "text": "identified and their respective logs are being collected. An indicative list of types\nof log data to be collected by REs is as follows: system logs, application logs,\n1 Reference:\nhttps://www.cnss.gov/CNSS/openDoc.cfm?a=AV1qZPhA4QFAfJhLI5UEag%3D%3D&b=79F3ADF8D651749481C\nD192C11F0F55DA585068EDDD5BCC88ADCEEC491E7F925B0FC8D9126629DA92E9A18D643950B08\nnetwork logs, database logs, security logs, performance logs, audit trail logs, and\nevent logs."
+  },
+  {
+    "chunk_id": "1749647139924_chunk_85",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 85,
+    "total_chunks": 110,
+    "text": "event logs.\nFurther, REs shall be responsible and take adequate security measures while\nsharing any such logs.\n55. When does an RE need to encrypt data in use?\nAnswer: Please refer clause 6.2.9.i.3 in SEBI Cloud Adoption Framework.\nFurther, refer CSCRF guideline 1(a) (Page 105) of Protect: Data Security (PR.DS)\ncorresponding to Standard 1-3. MeitY Guidelines for the procurement of cloud\nguidelines\nhttps://www.ambud.meity.gov.in/assets/web_assets/Includes/files/5.%20Guidelines_Procurem"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_86",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 86,
+    "total_chunks": 110,
+    "text": "ent_Cloud%20Services_v2.2.pdf ][Link] require services offered under SaaS provide\ntools / capability for encryption of data-at-rest, data-in-motion and data-in-use.\n56. Can KRAs adopt alternative or manual solutions for cybersecurity\nrequirements if automated tools like BAS and CART are not feasible due to\ncost and operational constraints?\nAnswer: KRAs have been categorised as Qualified REs for the CSCRF\nCompliance. Since they are falling under Qualified REs which implies having"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_87",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 87,
+    "total_chunks": 110,
+    "text": "significant scale of operations and importance in Indian securities market\necosystem, automated tools like BAS and CART are required to maintain cyber\nresiliency.\n57. What are the baseline security requirements for mobile application security\nto ensure compliance?\nAnswer: Baseline security requirements for mobile application security are\nprovided at Standard 16 of ‘PR.AA: Identity Management, Authentication, and\nAccess Control’ and its corresponding guidelines.\nISO 27001 certification"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_88",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 88,
+    "total_chunks": 110,
+    "text": "ISO 27001 certification\n58. Is it mandatory for third-party providers to have ISO 27001 certification in\norder to conduct business with SEBI REs?\nAnswer: Please refer guideline of PR.IP.S16 (Page 115). The scope for ISO\n27001 certification shall include (but not limited to) PDC site, DR site, NDR site,\nSOC, and Colocation facility. If any of the aforementioned is being outsourced to\nthird-party service providers, then it must be ensured that those third-party service"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_89",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 89,
+    "total_chunks": 110,
+    "text": "providers are also ISO 27001 certified for the services being outsourced to them.\nSecurity Operations Centre (SOC) and Market-SOC (M-SOC)\n59. REs having global presence and infrastructure may fall under small-size and\nself-certification REs categories based on their business in Indian securities\nmarket. Is it mandatory for such REs to get onboarded to Market-SOC?\nAnswer: Such REs can leverage their group SOC services. However, they will be"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_90",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 90,
+    "total_chunks": 110,
+    "text": "required to submit the SOC efficacy report periodically as mandated in CSCRF.\n60. In a scenario where an RE falling under small-size or self-certification REs\ncategory has its own SOC, is it necessary for such REs to get onboarded to\nMarket-SOC?\nAnswer: It is imperative that setting up own SOC is a costly proposition. Hence,\nSEBI has mandated NSE and BSE to setup Market-SOC (M-SOC) where small-\nsize REs and self-certification REs can get onboarded and take the benefit to stay"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_91",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 91,
+    "total_chunks": 110,
+    "text": "cyber secure and resilient. However, REs who have their own SOC and falling\nunder the category of small-size REs or self-certification REs by virtue of their\nregulatory activity may leverage their existing SOC. Further, such REs shall be\nrequired to submit the SOC efficacy report periodically as mandated in CSCRF.\n61. Who will facilitate the enrolment process for the Market SOC, will it be\nmanaged by BSE and NSE?\nAnswer: CSCRF has mandated both BSE and NSE to setup Market-SOC for"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_92",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 92,
+    "total_chunks": 110,
+    "text": "smaller REs. Please refer following circular/ guidelines issued by BSE and NSE\non Market-SOC:\na. NSE: https://nsearchives.nseindia.com/content/circulars/MSD66154.pdf\nb. BSE:\nhttps://www.bseindia.com/markets/marketinfo/DispMediaRels.aspx?page\n=7f35cda4-c3c7-431d-bd1b-4637518da317\nREs’ enrolment process will be facilitated by BSE and NSE.\n62. Is it mandatory for REs to deploy all tools listed in Annexure-N, such as\nDatabase Activity Monitoring (DAM), and what are the expected capabilities\nof these tools?"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_93",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 93,
+    "total_chunks": 110,
+    "text": "of these tools?\nAnswer: The tools listed are the SOC technologies deployed to the SOC for\ncontinuous monitoring of security events and timely detection of anomalous\nactivities. The tools should meet the desired functionalities and REs are expected\nto evaluate these tools before onboarding.\n63. Can affiliate entities of an RE rely on a common audit report for shared\nservices like SOC, IT infrastructure management, and data centres to meet\ncompliance requirements?"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_94",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 94,
+    "total_chunks": 110,
+    "text": "compliance requirements?\nAnswer: Affiliate entities sharing services such as SOC, IT infrastructure, data\ncentres may utilize a common audit report to demonstrate compliance, provided\nthat:\ni. Reports are in the same format as provided under CSCRF.\nii. The shared services are uniformly implemented across all affiliated\niii. The audit report comprehensively covers the cybersecurity controls and\nmeasures put in place for SEBI RE with proper evidences."
+  },
+  {
+    "chunk_id": "1749647139924_chunk_95",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 95,
+    "total_chunks": 110,
+    "text": "measures put in place for SEBI RE with proper evidences.\niv. There is clear documentation detailing the shared services and the\nrespective responsibilities for each entity.\nv. REs shall ensure that all the shared services are covered under such\ncommon audit report.\n64. How should global organizations with centralized SOCs handle India-\nspecific requirements? Does SEBI allow the use of firm wide data for global\norganizations to meet SOC efficacy requirements?"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_96",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 96,
+    "total_chunks": 110,
+    "text": "organizations to meet SOC efficacy requirements?\nAnswer: For global REs, SEBI allows them to submit their global SOC efficacy\nprovided the global controls are applied uniformly.\n65. For SOC efficacy, do REs need to consider only given list of SOC\nTechnologies or can they add other security tools / technologies used by\nthe entity such as IDAM, FIM, and SSO?\nAnswers: REs are encouraged to add more tools and technologies as per the\nrequirements and resiliency of their IT infrastructure and business needs; the"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_97",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 97,
+    "total_chunks": 110,
+    "text": "prescribed format has kept the flexibility and provision for adding more\ntechnologies.\n66. Is Capacity utilization mentioned in DE.CM.Standard 4 related to IT function?\nAnswer: Capacity utilization given under DE.CM.Standard 4 is related to aspects\ncovering the monitoring of anomalous utilisation, alerts, unusual network traffic\nThreat Intelligence\n67. Can REs rely solely on threat intelligence shared by NCIIPC and CERT-In for\ntheir quarterly threat hunting activities, or is additional intelligence"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_98",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 98,
+    "total_chunks": 110,
+    "text": "Answer: While threat intelligence provided by NCIIPC and CERT-In is invaluable,\nREs are also encouraged to supplement it with industry sources and internal threat\nhunting mechanisms to strengthen cybersecurity posture. REs may integrate\nthreat intelligence from industry-specific feeds, commercial providers, and industry\npeers to analyse threat intelligence relevant to their specific operational\nenvironment.\nDC-DR Drills\n68. Are scenario-based cybersecurity drills mandated in CSCRF same as"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_99",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 99,
+    "total_chunks": 110,
+    "text": "Red/Blue teaming, or do they serve a different purpose?\nAnswer: Please refer CSCRF ‘Governance: Risk Management: standard 3’ with\ntheir corresponding guidelines. While both Scenario-based Cybersecurity drills\nand Red/ blue teaming are integral to REs’ security posture, they serve different\npurposes. Scenario-based cybersecurity drills assess REs’ incident response and\nrecovery capabilities in various scenarios. Red Teaming focuses on simulation of"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_100",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 100,
+    "total_chunks": 110,
+    "text": "real threats and attacks to identify vulnerabilities in RE’s IT environment; whereas\nBlue Team focuses on analysing such attacks and defend the RE’s IT environment\nfrom Red Team.\n69. Is it mandatory for REs to cover all cybersecurity incident scenarios in a\nsingle drill, or can they be spread across multiple drills within one audit\nAnswer: REs shall ensure that all the cybersecurity incident scenarios are\ncovered in one audit period and all the relevant stakeholders are present in those"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_101",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 101,
+    "total_chunks": 110,
+    "text": "drills and know their roles and responsibilities.\n70. Can REs conduct table-top exercises or walkthroughs instead of live drills\nfor scenario-based cyber resilience testing?\nAnswer: No, live drills are to test the readiness in the event of cyber incidents and\ninvolves real-world simulation and is akin to DR drill whereas table-top exercises\nare theoretical resilience drills and focusses more on discussions and\nwalkthroughs.\n71. Can REs define their own RTO and RPO based on a business impact"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_102",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 102,
+    "total_chunks": 110,
+    "text": "analysis, or are they required to adhere strictly to the RTO of 2 hours and\nRPO of 15 minutes as mandated by CSCRF?\nAnswer: Please refer Guideline of Standard 2 in ‘Recover: Incident Recovery Plan\nExecution’: In the event of disruption of any one or more of the critical systems,\nthe RE shall, within 30 minutes of the incident, declare that incident as ‘Disaster’\nbased on the business impact analysis. Accordingly, the RTO shall be two (2)"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_103",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 103,
+    "total_chunks": 110,
+    "text": "hours as recommended by IOSCO for the resumption of critical operations. The\nRPO shall be 15 minutes. REs shall establish their recovery plans in line with the\nRTO and RPO specified.\nResponse and Recovery\n72. CSCRF requires to retain spare hardware in an isolated environment. Is this\nmandatory and how REs should manage the overheads associated with\nmaintaining and updating such hardware?\nAnswer: Please refer guidelines corresponding to RC.RP.S1 on Page 127-128 of"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_104",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 104,
+    "total_chunks": 110,
+    "text": "CSCRF. Maintenance of regularly updated ‘golden images’ of critical systems and\nretaining spare hardware has been mandated to MIIs and Qualified REs as their\nbusiness is critical to Indian securities market ecosystem.\n73. How should REs validate the effectiveness of their response and recovery\nplans during business continuity drills?\nAnswer: The CSCRF emphasizes the importance of conducting regular business\ncontinuity drills to validate the effectiveness of response and recovery plans."
+  },
+  {
+    "chunk_id": "1749647139924_chunk_105",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 105,
+    "total_chunks": 110,
+    "text": "These drills should simulate various disaster scenarios to test the organization's\npreparedness. Post-drill evaluations are crucial to identify gaps, assess response\ntimes, and implement improvements to enhance the overall resilience of the\norganization.\n74. Can REs use cloud-based high-availability solutions as an alternative to\nmaintaining physical spare hardware for critical services?\nAnswer: Yes, REs can use cloud-based high availability solutions as an"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_106",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 106,
+    "total_chunks": 110,
+    "text": "alternative to maintain physical spare hardware for critical services. However, all\nthe required compliances (including SEBI CSCRF and Cloud Adoption\nFramework) shall be met.\nClassification and Handling of Cybersecurity Incidents\n75. Can REs use in-house forensic auditors (at the group company level) or is it\nmandatory for them to be CERT-In empanelled?\nAnswer: For all the forensic audits, REs shall select auditors after due diligence"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_107",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 107,
+    "total_chunks": 110,
+    "text": "for carrying out the forensic audit related work(s). Indian government forensic labs\nmay also be engaged depending upon the requirement. REs shall engage third-\nparty auditors for forensic analysis/ audits.\n76. Is forensic auditing required for all cybersecurity incidents, or only for\ncritical incidents involving financial loss or severe impact?\nAnswer: CSCRF has mandated that for all incidents classified as High or Critical,\nthe RE shall submit a forensic audit/ investigation reports (Please refer CSCRF"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_108",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 108,
+    "total_chunks": 110,
+    "text": "Annexure-O: Classification and Handling of Cybersecurity Incidents). For\nincidents classified as low or medium, forensic report shall be submitted if the Root\nCause Analysis (RCA) is inconclusive or if the SEBI/ HPSC-CS directs the same.\n(Please refer CSCRF Annexure-O: Classification and Handling of Cybersecurity\nIncidents). For all the forensic audits, REs shall select auditors after due diligence\nfor carrying out the forensic audit related work(s). Indian government forensic labs"
+  },
+  {
+    "chunk_id": "1749647139924_chunk_109",
+    "doc_id": "1749647139924",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/jun-2025/1749647139924.pdf",
+    "chunk_index": 109,
+    "total_chunks": 110,
+    "text": "may also be engaged depending upon the requirement."
+  },
+  {
+    "chunk_id": "1758091557500_chunk_0",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 0,
+    "total_chunks": 22,
+    "text": "Inter-operable Regulatory Sandbox: FAQs\nThese FAQs provide a comprehensive overview of the Inter-operable Regulatory\nSandbox (IoRS) initiative and address common queries from potential participants:\nQ1. What is Regulatory Sandbox?\nRegulatory Sandbox usually refers to live testing of new products or services in a\ncontrolled/test regulatory environment for which regulators may permit certain regulatory\nrelaxations for the limited purpose of the testing."
+  },
+  {
+    "chunk_id": "1758091557500_chunk_1",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 1,
+    "total_chunks": 22,
+    "text": "relaxations for the limited purpose of the testing.\nQ2. Which regulators/authorities in India have initiatives for regulatory sandbox?\nFinancial Sector regulators/ authorities in India have established regulatory sandboxes to\nfoster innovation in their respective domains. These include:\nReserve Bank of India (RBI)\nLink:https://fintech.rbi.org.in/FS_Publications?id=1262\nSecurities and Exchange Board of India (SEBI)\nLink:https://www.sebi.gov.in/legal/circulars/jun-2021/revised-framework-for-"
+  },
+  {
+    "chunk_id": "1758091557500_chunk_2",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 2,
+    "total_chunks": 22,
+    "text": "regulatory-sandbox_50521.html\nInsurance Regulatory and Development Authority of India (IRDAI)\nLink: https://irdai.gov.in/document-detail?documentId=6541188\nInternational Financial Services Centres Authority (IFSCA)\nLink: https://ifsca.gov.in/Viewer?Path=Document%2FLegal%2Ffe-framework_27-04-\n202227042022122844.pdf&Title=Framework%20for%20FinTech%20Entity%20in%2\n0the%20International%20Financial%20Services%20Centres%20%28IFSCs%29&D\nate=27%2F04%2F2022"
+  },
+  {
+    "chunk_id": "1758091557500_chunk_3",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 3,
+    "total_chunks": 22,
+    "text": "ate=27%2F04%2F2022\nIt may be noted that Pension Fund Regulatory and Development Authority\n(PFRDA) currently does not have its own regulatory sandbox.\nQ3. What is the genesis of Inter-operable Regulatory Sandbox (IoRS) initiative?\nAn Inter-Regulatory Technical Group on FinTech (IRTG on FinTech) was constituted under\nthe aegis of the Financial Stability and Development Council-Sub Committee (FSDC-SC).\nThe terms of reference (ToR) of IRTG on FinTech included discussion on issues relating to"
+  },
+  {
+    "chunk_id": "1758091557500_chunk_4",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 4,
+    "total_chunks": 22,
+    "text": "hybrid product/ service falling under the regulatory ambit of more than one financial sector\nregulator for admission in Regulatory Sandbox and framing of Standard Operating Procedure\n(SOP) for IoRS for hybrid products/services. The group, in addition to the members from\nInter-operable Regulatory Sandbox: FAQs\nFinancial Sector Regulators/ Authority (RBI, SEBI, IRDAI, IFSCA and PFRDA), has\nrepresentation from Department of Economic Affairs (DEA), Ministry of Finance and Ministry"
+  },
+  {
+    "chunk_id": "1758091557500_chunk_5",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 5,
+    "total_chunks": 22,
+    "text": "of Electronics and Information Technology (MeITY), GoI. In order to facilitate testing of\ninnovative products/services falling within the regulatory ambit of more than one financial\nsector regulator, a Standard Operating Procedure (SOP) for IoRS has been prepared by the\nInter-Regulatory Technical Group on FinTech (IRTG on FinTech). The SOP can be accessed\nfrom the link: - FinTech\nQ4. What is Inter-operable Regulatory Sandbox (IoRS) ?"
+  },
+  {
+    "chunk_id": "1758091557500_chunk_6",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 6,
+    "total_chunks": 22,
+    "text": "Q4. What is Inter-operable Regulatory Sandbox (IoRS) ?\nThe Inter-operable Regulatory Sandbox (IoRS) provides a common window for innovators to\ntest hybrid financial products/ services falling within the regulatory ambit of more than one\nfinancial sector regulator. By eliminating the need to separately engage with different\nregulators, IoRS simplifies testing processes and fosters innovation in the financial\necosystem.\nQ5. How is the IoRS different from individual Regulatory Sandboxes ?"
+  },
+  {
+    "chunk_id": "1758091557500_chunk_7",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 7,
+    "total_chunks": 22,
+    "text": "The IoRS supports innovation that requires collaboration between multiple regulators while\nthe individual sandboxes of regulators cater to the solutions within the purview of a single\nregulator. Thus, IoRS is a unified mechanism that bridges the complexities of bespoke\nregulatory sandbox frameworks of different financial sector regulators and helps in fostering\ncross-sectoral innovation.\nQ6. Which regulators/authority are involved in the IoRS initiative?"
+  },
+  {
+    "chunk_id": "1758091557500_chunk_8",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 8,
+    "total_chunks": 22,
+    "text": "The initiative involves collaboration between multiple regulators:\nReserve Bank of India (RBI) – for banking and payment systems\nSecurities and Exchange Board of India (SEBI) – for securities markets\nInsurance Regulatory and Development Authority of India (IRDAI) – for insurance\nPension Fund Regulatory and Development Authority (PFRDA) – for pension-related\ninnovations (although PFRDA does not have a separate regulatory sandbox but is a\npart of the Inter-operable Regulatory Sandbox (IoRS))."
+  },
+  {
+    "chunk_id": "1758091557500_chunk_9",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 9,
+    "total_chunks": 22,
+    "text": "part of the Inter-operable Regulatory Sandbox (IoRS)).\nInternational Financial Services Centres Authority (IFSCA) – unified Regulatory\nauthority of Gujarat International Finance Tech-City International Financial Services\nCentre (GIFT IFSC) for testing in the domain areas as specified in the Annexure I of\nFramework for FinTech Entity in the International Financial Services Centres.\nInter-operable Regulatory Sandbox: FAQs\nQ7. Who can participate in the IoRS?"
+  },
+  {
+    "chunk_id": "1758091557500_chunk_10",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 10,
+    "total_chunks": 22,
+    "text": "Q7. Who can participate in the IoRS?\nGenerally, following entities can participate in the IoRS: Financial institutions, FinTech\ncompanies, RegTech providers, Start-ups or other innovators offering products/services\nrelevant to multiple financial sectors.\nHowever, the eligibility criteria will be governed primarily by the RS Framework of the\nPrincipal Regulator (Details given under FAQ Question 2)\nQ8. What types of products or services can be tested under IoRS?"
+  },
+  {
+    "chunk_id": "1758091557500_chunk_11",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 11,
+    "total_chunks": 22,
+    "text": "IoRS allows the testing of financial products or services whose features fall within the remit\nof more than one financial sector regulator (RBI, SEBI, IRDAI, PFRDA and IFSCA). Some of\nsuch innovative solutions include, the areas of RegTech and SupTech, Digital Payment\nSolutions, Cross-sectoral products for e.g. insurance products linked to banking services\nInsurTech, WealthTech, Cross-border payment solutions etc.\nQ9. What are the benefits of participating in the IoRS?"
+  },
+  {
+    "chunk_id": "1758091557500_chunk_12",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 12,
+    "total_chunks": 22,
+    "text": "Q9. What are the benefits of participating in the IoRS?\nTesting of innovative solutions in a controlled, low-risk environment.\nInteraction with multiple regulators through single window to ensure compliance\nacross domains.\nOpportunity to refine products based on feedback from regulators and the sandbox\nReduced time to market for innovative solutions.\nQ10. Who is the Principal Regulator (PR) and Associate Regulator (AR) under IoRS?"
+  },
+  {
+    "chunk_id": "1758091557500_chunk_13",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 13,
+    "total_chunks": 22,
+    "text": "The RS framework of the regulator under whose remit the dominant/ majority feature of the\nproduct falls, will be the ‘Principal Regulator (PR)’ under IoRS. The regulator/s under whose\nremit the other features apart from the dominant feature of the product fall shall be\nthe ‘Associate Regulator (AR)’ under IoRS.\nQ11. How is the dominant feature of a product determined?\nThe dominant feature is assessed based on two factors:\nThe type of enhancement to existing financial products (e.g., loans, deposits,"
+  },
+  {
+    "chunk_id": "1758091557500_chunk_14",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 14,
+    "total_chunks": 22,
+    "text": "insurance, pension products).\nThe number of relaxations sought for the product during the testing process, with\ngreater weightage given to the latter.\nInter-operable Regulatory Sandbox: FAQs\nThe relaxation, if warranted, shall be considered by PR/ AR on case-to-case basis and\ndecision to that effect shall be binding and final.\nQ12. What are the eligibility criteria to participate in IoRS?\nBased on the dominant features of the product, the eligibility criteria and networth criteria as"
+  },
+  {
+    "chunk_id": "1758091557500_chunk_15",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 15,
+    "total_chunks": 22,
+    "text": "applicable for the RS of the PR concerned shall be applicable to the applicant entity for\nparticipation in the IoRS.\nQ13. How can you apply for IoRS?\nYou can apply by submitting a single application form to the Coordination Group hosted by\nthe FinTech Department, RBI, via email at iors@rbi.org.in. The application form can be\naccessed via the link:\nhttps://rbidocs.rbi.org.in/rdocs/content/pdfs/IoRS12102022_APP.pdf\nQ14. Is there any fee for applying to IoRS?"
+  },
+  {
+    "chunk_id": "1758091557500_chunk_16",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 16,
+    "total_chunks": 22,
+    "text": "Q14. Is there any fee for applying to IoRS?\nNo, there is no application fee for applying to IoRS. However, for testing under IoRS the\nsandbox fee, if any, of the PR concerned may be applicable.\nQ15. Is there a deadline for submitting applications under IoRS?\nNo, applications are accepted on an ‘On-Tap’ basis throughout the year.\nQ16. Who will scrutinize the IoRS application, and how will it be processed?\nThe preliminary scrutiny will be done by FinTech Department of Reserve Bank of India."
+  },
+  {
+    "chunk_id": "1758091557500_chunk_17",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 17,
+    "total_chunks": 22,
+    "text": "However, detailed scrutiny will be done by the PR based on its sandbox framework. The PR\nwill also coordinate with ARs to review specific features of your product that fall under their\nregulatory scope, ensuring a smooth and efficient process.\nQ17. Are foreign FinTech entities eligible to participate in IoRS?\nYes, applications from foreign FinTechs seeking entry into India or Indian FinTechs with\nglobal ambitions are eligible to participate. For such cases, IFSCA, shall act as the PR."
+  },
+  {
+    "chunk_id": "1758091557500_chunk_18",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 18,
+    "total_chunks": 22,
+    "text": "Q18. Where and how will the product/ solution be tested and evaluated under IoRS?\nThe product/ solution will be tested as per the sandbox framework of the PR in coordination\nwith the ARs. The PR will also evaluate your product based on its framework, incorporating\ninputs and appraisals from ARs for specific aspects under their jurisdiction to assess its\nsuitability and viability.\nSince Pension Fund Regulatory and Development Authority (PFRDA) currently does not have"
+  },
+  {
+    "chunk_id": "1758091557500_chunk_19",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 19,
+    "total_chunks": 22,
+    "text": "its own regulatory sandbox, it can only act as AR under IoRS and not as the PR.\nInter-operable Regulatory Sandbox: FAQs\nQ19. What is the duration of the IoRS testing phase?\nThe testing phase duration will be as per the sandbox framework of the PR concerned.\nQ20. What should I do after my product has been tested under IoRS?\nAfter successful testing under IoRS, the entity may approach the concerned PR and ARs to\nobtain necessary authorisations and regulatory approvals before launching its product in the"
+  },
+  {
+    "chunk_id": "1758091557500_chunk_20",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 20,
+    "total_chunks": 22,
+    "text": "market. The decisions of the respective regulators will be final and binding. The product being\nsuccessfully exiting the IoRS shall be published by the regulator concerned vide Press\nRelease for wider adoption.\nQ21. Where can you find more information about the IoRS?\nThe Standard Operating Procedure for IoRS can be accessed at the link:\nhttps://fintech.rbi.org.in/FS_PressRelease?prid=54528&fn=2765\nQ22. Whom to reach out in case of any additional queries?\nFor any inquiries, please email at iors@rbi.org.in"
+  },
+  {
+    "chunk_id": "1758091557500_chunk_21",
+    "doc_id": "1758091557500",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2025/1758091557500.pdf",
+    "chunk_index": 21,
+    "total_chunks": 22,
+    "text": "For any inquiries, please email at iors@rbi.org.in\n**********"
+  },
+  {
+    "chunk_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p_chunk_0",
+    "doc_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2025/Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p.pdf",
+    "chunk_index": 0,
+    "total_chunks": 18,
+    "text": "N O T I C E\nCaution to public against buying/dealing with assets of Sai Prasad Group\nof companies and its Directors\nIt is brought to the notice of the public at large that Hon’ble the Supreme Court\nof India vide order dated  July 15, 2024, read with other orders passed from time\nto time, in Writ Petition (Crl.) No.546 of 2023 in the matter of Balasaheb\nKeshavrao Bhapkar & Ors. vs. Securities and Exchange Board of India has inter\nalia constituted a High-Powered Sale Committee (hereinafter referred to as"
+  },
+  {
+    "chunk_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p_chunk_1",
+    "doc_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2025/Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p.pdf",
+    "chunk_index": 1,
+    "total_chunks": 18,
+    "text": "“HPSC”) and has empowered HPSC to liquidate all the movable and immovable\nassets of Sai Prasad Group of companies viz.\nM/s. Sai Prasad Properties Ltd.,\nM/s. Sai Prasad Foods Ltd.,\n(iii) M/s. Sai Prasad Corporation Ltd. (hereinafter referred to as “SPG\ncompanies”) and\nits directors viz., Shri Balasaheb Keshavrao Bhapkar, Smt. Vandana\nBhapkar and Shri Shashank B. Bhapkar,\nsituated in various States by way of public auction,  which are attached vide"
+  },
+  {
+    "chunk_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p_chunk_2",
+    "doc_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2025/Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p.pdf",
+    "chunk_index": 2,
+    "total_chunks": 18,
+    "text": "Notifications dated 23.03.2016 and 28.06.2016 by Government of Maharashtra\nunder the Maharashtra Protection of Interest of Depositors in Financial\nEstablishment Act, 1999 (MPID Act) and vide Prohibitory Orders dated\n10.03.2017 and 12.02.2020 in recovery proceedings initiated by Securities and\nExchange Board of India (SEBI) under section 28A of the SEBI Act, 1992.\nThe HPSC has also been vested with all the powers of a civil court for taking"
+  },
+  {
+    "chunk_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p_chunk_3",
+    "doc_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2025/Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p.pdf",
+    "chunk_index": 3,
+    "total_chunks": 18,
+    "text": "necessary actions to speed up the liquidation of the properties of the SPG\ncompanies. Further, the Hon’ble Supreme Court has given directions that no court\nor authority can create a third party interest in the assets of SPG companies and\nits directors attached by Government of Maharashtra and SEBI.\nIn compliance with the directions of the Hon’ble Supreme Court, HPSC has\nstarted the process of sale of assets of SPG companies and its directors by way of"
+  },
+  {
+    "chunk_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p_chunk_4",
+    "doc_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2025/Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p.pdf",
+    "chunk_index": 4,
+    "total_chunks": 18,
+    "text": "public auction with the assistance of StockHolding Document Management\nSystem Ltd.\nThe public at large is cautioned against buying/dealing with any  of the assets\nwherein the SPG companies or its Directors or any of its associates/subsidiaries\nhave any interest/rights, directly or indirectly. Further, any person illegally and\nunauthorizedly  buying or dealing with or taking possession of the assets of SPG\ncompanies or  its Directors or any of its associates/subsidiaries shall be doing at"
+  },
+  {
+    "chunk_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p_chunk_5",
+    "doc_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2025/Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p.pdf",
+    "chunk_index": 5,
+    "total_chunks": 18,
+    "text": "his own risk and shall be liable for action in accordance with law since in terms\nof the directions of the Hon’ble Supreme Court, power to auction/sell them lies\nsolely and exclusively with the HPSC as these properties stand encumbered and\nare not free for being registered in favour of any third person / party.\nPlace: New Delhi\nMEMBER SECRETARY\nDate: June 10, 2025\nसाई प्रसाद ग्रुप ऑफ कंपनीज़ और उसके ननदेशकों की संपत्तियों को खरीदने /\nउनमें लेनदेन (डील) करने के संबंध में सावधानी बरिें"
+  },
+  {
+    "chunk_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p_chunk_6",
+    "doc_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2025/Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p.pdf",
+    "chunk_index": 6,
+    "total_chunks": 18,
+    "text": "उनमें लेनदेन (डील) करने के संबंध में सावधानी बरिें\nआम जनता को यह सूचित ककया जाता है कक बालासाहेब केशवराव भापकर एवं अन्य बनाम\nउच्ितम न्यायालय ने 15 जुलाई, 2024 को आदेश (समय-समय पर पाररत ककए गए अन्य\nआदेशों के साथ पठित) जारी करके एक उच्ि स्तरीय बबक्री सममतत (जजसका उल्लेख यहााँ आगे\n“एि.पी.एस.सी.”) भी गठित की और उसे साई प्रसाद ग्रुप ऑफ कंपनीज़ (जजसका उल्लेख यहााँ\nआगे “एसपीजी कंपतनयों” के रूप में ककया गया है - जो तनम्नमलखखत कंपतनयों के नाम से"
+  },
+  {
+    "chunk_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p_chunk_7",
+    "doc_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2025/Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p.pdf",
+    "chunk_index": 7,
+    "total_chunks": 18,
+    "text": "रजजस्टर हैं) की समस्त िल और अिल संपजततयों की साववजतनक नीलामी के जररए बबक्री\nकरने का कायव ठदया:\nमैससव साई प्रसाद प्रॉपटीज़ मल.,\nमैससव साई प्रसाद फूड्स मल.,\nमैससव साई प्रसाद कारपोरेशन मल., और\nउनके तनदेशक (अथावत् श्री बालासाहेब केशवराव भापकर, श्रीमती वंदना भापकर और\nश्री शशांक बी. भापकर)\nये संपजततयााँ अलग-अलग राज्यों में जस्थत हैं और जजनकी कुकी महाराष्ट्र जमाकतावओं (ववततीय\nसंस्थानों में) के ठहतों का संरक्षण अचितनयम, 1999 (एमपीआईडी एक्ट, 1999) के तहत"
+  },
+  {
+    "chunk_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p_chunk_8",
+    "doc_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2025/Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p.pdf",
+    "chunk_index": 8,
+    "total_chunks": 18,
+    "text": "महाराष्ट्र सरकार द्वारा 23.03.2016 और 28.06.2016 की अचिसूिना के माध्यम से और\nभारतीय प्रततभूतत और ववतनमय बोडव अचितनयम, 1992 (सेबी एक्ट, 1992) की िारा 28क\n(28ए) के तहत शुरू की गई वसूली कायवाठहयों के तहत तारीख 10.03.2017 और 12.02.2020\nको जारी ककए गए प्रततषेिातमक आदेशों (प्रोहीबबटरी आडवर) के माध्यम से की गई है ।\nएि.पी.एस.सी. को मसववल न्यायालय की समस्त शजक्तयााँ सौंप दी गई हैं, ताकक वह एसपीजी\nकंपतनयों की संपजततयों की बबक्री आठद की प्रकक्रया जल्द से जल्द पूरी करने के मलए हर जरूरी"
+  },
+  {
+    "chunk_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p_chunk_9",
+    "doc_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2025/Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p.pdf",
+    "chunk_index": 9,
+    "total_chunks": 18,
+    "text": "कदम उिा सके । इसके अलावा, माननीय उच्ितम न्यायालय ने ये तनदेश भी ठदए हैं कक कोई\nभी न्यायालय या प्राचिकरण यह पक्ष नहीं रख सकता कक एसपीजी कंपतनयों और उनके\nतनदेशकों की संपजततयों [जजनकी कुकी महाराष्ट्र सरकार और सेबी द्वारा की गई है)] में ककसी\nभी दूसरे व्यजक्त आठद का कोई ठहत है ।\nमाननीय उच्ितम न्यायालय के उपरोक्त तनदेशों का पालन करते हुए, एि.पी.एस.सी. ने स्टॉक\nहोजल्डंग डॉक्यूमेंट मैनेजमेंट मसस्टम मल. के सहयोग से साववजतनक नीलामी के जररए एसपीजी"
+  },
+  {
+    "chunk_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p_chunk_10",
+    "doc_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2025/Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p.pdf",
+    "chunk_index": 10,
+    "total_chunks": 18,
+    "text": "कंपतनयों और उनके तनदेशकों की संपजततयों की बबक्री की प्रकक्रया शुरू कर दी है ।\nआम जनता को आगाह ककया जाता है कक वे उन संपजततयों को न तो खरीदें और न ही उनमें\nकोई लेनदेन करें, जजनमें एसपीजी कंपतनयों अथवा उनके तनदेशकों या उनके ककन्हीं सहयोचगयों\n(असोमसएट्स) / सहायक कंपतनयों (सजससडडयरीज़) का प्रतयक्ष रूप से या अप्रतयक्ष रूप से कोई\nठहत / अचिकार हो ।  इसके अलावा, यठद कोई व्यजक्त एसपीजी कंपतनयों अथवा उनके\nतनदेशकों या उनके ककन्हीं सहयोचगयों (असोमसएट्स) / सहायक कंपतनयों (सजससडडयरीज़) की"
+  },
+  {
+    "chunk_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p_chunk_11",
+    "doc_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2025/Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p.pdf",
+    "chunk_index": 11,
+    "total_chunks": 18,
+    "text": "संपजततयों को गैर-कानूनी तथा अनचिकृत तरीके से खरीदेगा या उनमें कोई लेनदेन करेगा या\nउनका कसज़ा अपने हाथों में लेगा, तो इसके मलए वह खुद जजम्मेदार होगा और साथ ही उसके\nखखलाफ कानूनी प्राविानों के अनुसार कारवाई की जा सकेगी, क्योंकक माननीय उच्ितम\nन्यायालय के तनदेशानुसार उन संपजततयों की नीलामी / बबक्री करने का अचिकार पूरी तरह से\nएि.पी.एस.सी. के ही पास है और इन संपजततयों पर एन्कंब्रेंस भी है तथा इनकी रजजस्री ककसी\nदूसरे व्यजक्त / पक्ष के नाम पर भी नहीं की जा सकती ।\nस्थान :  नई ठदल्ली\nसदस्य सचिव\nतारीख: 10 जून, 2025"
+  },
+  {
+    "chunk_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p_chunk_12",
+    "doc_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2025/Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p.pdf",
+    "chunk_index": 12,
+    "total_chunks": 18,
+    "text": "स्थान :  नई ठदल्ली\nसदस्य सचिव\nतारीख: 10 जून, 2025\nसाई प्रसाद ग्रुप ऑफ कंपनीज आणि तयांच्या संचालकांच्या मालमतिा खरेदी / व्यवहार (डील)\nकरिाना खबरदारी घ्यावी.\nसववसामान्य जनतेस सूचित करण्यात येते की, बालासाहेब केशवराव भापकर आखण इतर ववरुद्ध\nन्यायालयाने ठदनांक 15 जुलै 2024 रोजी (वेळोवेळी पाररत केलेल्या इतर आदेशांसह वािावे)\nएक आदेश काढून एक उच्िस्तरीय ववक्री सममती (यास पुढे “एि.पी.एस.सी.” असे संबोिले\nआहे) गिीत केली असून ततला साई प्रसाद ग्रुप ऑफ कंपनीज (पुढे “एसपीजी कंपन्या” म्हणून"
+  },
+  {
+    "chunk_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p_chunk_13",
+    "doc_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2025/Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p.pdf",
+    "chunk_index": 13,
+    "total_chunks": 18,
+    "text": "ओळखले जाईल – खालील कंपन्यांनुसार नोंदणीकृत) यांच्या सवव अिल व िल मालमतता\nसाववजतनक मललावामाफवत ववक्री करण्यािे कायव सोपववले आहे:\nमैससव साई प्रसाद प्रॉपटीज मल.,\nमैससव साई प्रसाद फूड्स मल.\nमैससव साई प्रसाद कॉपोरेशन मल., आखण\nवरील कंपन्यांिे संिालक (श्री. बालासाहेब केशवराव भापकर, श्रीमती वंदना\nभापकर व श्री. शशांक बी. भापकर)\nही मालमतता ववववि राज्यांमध्ये जस्थत असून तयांच्यावर महाराष्ट्र शासनाने महाराष्ट्र िेवीदार\nसंरक्षण अचितनयम, 1999 (एमपीआयडी अ ‍ॅक्ट, 1999) अंतगवत ठदनांक 23.03.2016 आखण"
+  },
+  {
+    "chunk_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p_chunk_14",
+    "doc_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2025/Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p.pdf",
+    "chunk_index": 14,
+    "total_chunks": 18,
+    "text": "28.06.2016 रोजी काढलेल्या अचिसूिनांद्वारे तसेि भारतीय मसक्युररटीज अ ‍ॅण्ड एक्सिेंज बोडव\nअचितनयम, 1992 (सेबी अ ‍ॅक्ट, 1992) च्या कलम 28क (28A) अंतगवत 10.03.2017 आखण\n12.02.2020 रोजी काढण्यात आलेल्या प्रततबंिातमक आदेशांद्वारे जप्ती लावण्यात आलेली\nएि.पी.एस.सी. ला मसजव्हल न्यायालयािे सवव अचिकार देण्यात आले असून, तयांनी एसपीजी\nकंपन्यांच्या मालमततांच्या ववक्री प्रकक्रयेस गती देण्यासािी सवव आवश्यक पावले उिलावीत असे\nतनदेश ठदले आहेत. यामशवाय मा. सवोच्ि न्यायालयाने स्पष्ट्टपणे आदेश ठदला आहे की, कोणतेही"
+  },
+  {
+    "chunk_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p_chunk_15",
+    "doc_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2025/Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p.pdf",
+    "chunk_index": 15,
+    "total_chunks": 18,
+    "text": "न्यायालय ककंवा प्राचिकरण हे म्हणू शकत नाही की जप्त करण्यात आलेल्या मालमततांवर\n(ज्यांच्यावर महाराष्ट्र शासन व सेबीने जप्ती लावलेली आहे) कोणतयाही तृतीय पक्षािा ठहतसंबंि\nसवोच्ि न्यायालयाच्या वरील आदेशांिे पालन करून, एि.पी.एस.सी. ने स्टॉक होजल्डंग डॉक्युमेंट\nम‍ॅनेजमेंट मसजस्टम मल. यांच्या सहकायावने साववजतनक मललावाद्वारे एसपीजी कंपन्या व तयांच्या\nसंिालकांच्या मालमततांच्या ववक्रीिी प्रकक्रया सुरू केली आहे.\nसववसामान्य जनतेस इशारा ठदला जातो की तयांनी अशा मालमततांिी खरेदी करू नये वा"
+  },
+  {
+    "chunk_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p_chunk_16",
+    "doc_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2025/Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p.pdf",
+    "chunk_index": 16,
+    "total_chunks": 18,
+    "text": "तयांच्यात कोणताही व्यवहार करू नये – ज्या मालमततांमध्ये एसपीजी कंपन्या, तयांिे संिालक\nवा तयांिे कोणतेही सहयोगी / सहाय्यक कंपन्या यांिा थेट ककंवा अप्रतयक्ष ठहतसंबंि/अचिकार\nयाव्यततररक्त, कोणतीही व्यक्ती जर अशा मालमततांिी बेकायदेशीर व अनचिकृत खरेदी करते,\nतयांच्यात व्यवहार करते वा तयांिा ताबा घेतो, तर तयासािी ती व्यक्ती स्वतः जबाबदार असेल\nआखण ततच्यावर कायदेशीर कारवाई करण्यात येईल. कारण सवोच्ि न्यायालयाच्या तनदेशांनुसार,\nअशा मालमततांच्या मललाव / ववक्रीिा पूणव अचिकार फक्त एि.पी.एस.सी. कडेि असून तया"
+  },
+  {
+    "chunk_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p_chunk_17",
+    "doc_id": "Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2025/Caution%20Notice%20in%20the%20matter%20of%20Sai%20Prasad%20-%20English,%20Hindi%20&%20Marathi_p.pdf",
+    "chunk_index": 17,
+    "total_chunks": 18,
+    "text": "मालमततांवर आिीपासून अडथळे (encumbrances) आहेत आखण तया कुिल्याही तृतीय\nपक्षाच्या नावे नोंदवता येणार नाहीत.\nसदस्य सचिव\nस्थळ: नवी ठदल्ली\nठदनांक: 10 जून 2025"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_0",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 0,
+    "total_chunks": 36,
+    "text": "For External Circulation\nGUIDELINES FOR SEEKING\nOCTOBER 17, 2019\nFor External Circulation\nFor External Circulation\n1 | P a g e\nTable of Contents\nDEFINITIONS: ........................................................................................................................... 3\nOVERVIEW ............................................................................................................................... 4"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_1",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 1,
+    "total_chunks": 36,
+    "text": "A. STEPS TO SEEK DATA ...................................................................................................................4\nB. PROVISION TO SEEK EXTENSION FOR DATA RETENTION .................................................................5\nC. PROVISION OF INSPECTION ............................................................................................................5\nANNEXURE A: [INDICATIVE LIST OF SEBI DEPARTMENTS] .............................................. 6"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_2",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 2,
+    "total_chunks": 36,
+    "text": "ANNEXURE B: [SAMPLE DATA SHARING REQUEST FORM]............................................... 8\nANNEXURE C: [UNDERTAKING OF CONFIDENTIALITY AND NON-DISCLOSURE] ...........11\nANNEXURE D : [FLOW OF CONTROL] ..................................................................................15\nFor External Circulation\n2 | P a g e\nFor External Circulation\n3 | P a g e\nDefinitions:\n1. Data- In the context of Data Sharing policy, Data consists of all the information both"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_3",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 3,
+    "total_chunks": 36,
+    "text": "structured and unstructured collected and reported in various databases of Securities and\nExchange Board of India (SEBI). Data refers to raw data only. Any kind of secondary data\nare not to be considered as data under this policy.\n2. Data Custodian- is the internal department of SEBI that collects, generates, processes\nand holds the Data under their custody. They have deemed ownership over that Data\nwhich is related to the function of their department."
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_4",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 4,
+    "total_chunks": 36,
+    "text": "which is related to the function of their department.\n3. Data Analytics Controller- Is a team or person who will supervise the process of\ntransmission of Data from Data Custodians to Data seeker in Clean Data Rooms/through\nother approved media.\n4. Data Seeker- are various educational, research institutions, and regulators etc. who\nrequire data to undertake projects or research activities.\n5. Data Expunging- is the process of removal of Data/completely deleting of data, when its"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_5",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 5,
+    "total_chunks": 36,
+    "text": "requirement no longer exists.\n6. Data Anonymization- Data anonymization is a process of information sanitization to\nprotect the identity of the identifiers of data. It is the process of either encrypting or\nremoving identifiable information from data sets so that the identifiers, that the data is\ndescribing remains anonymous.\nFor External Circulation\n4 | P a g e\nData Sharing Policy is framed to facilitate access to Data in SEBI to meet a variety of"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_6",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 6,
+    "total_chunks": 36,
+    "text": "requirements like to undertake Analytics projects, Research activities, and academic studies etc.\nnot only by internal departments of SEBI but also by various educational/research institutions\nand other regulators. Data Sharing Policy is aimed at streamlining the process of Data sharing\nand formalization of Data protection measures to prevent Data from misuse and unauthorized\nThis policy is principles-based essentially to ensure a seamless process for sharing of Data."
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_7",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 7,
+    "total_chunks": 36,
+    "text": "Data Seekers are required to adhere to any relevant regulatory requirements, including those\nrelating to the ethical use of Data. As a general rule Data shared will be mostly historical,\nanonymized and the Data seekers will be required to sign an undertaking of confidentiality and\nnon-disclosure. Data that are at least two years old will be shared under this policy.\nThe process to be followed while seeking data from SEBI is given below\nA. Steps to Seek Data"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_8",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 8,
+    "total_chunks": 36,
+    "text": "A. Steps to Seek Data\nThe process flow defines all the necessary approvals that shall be needed prior to Data Sharing.\nA diagrammatic representation is enclosed at Annexure – D.\na. To obtain the data, Data Seeker needs to fill up the “Data Seeking Request Form”\navailable at the SEBI website.\nb. The seeking request form should be signed and approved by the Concerned Authority of\nthe Recipient institute.\nc. A Sample of Data Seeking request form is enclosed at Annexure B."
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_9",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 9,
+    "total_chunks": 36,
+    "text": "d. Data Seeking Request Form will be sent to Data Analytics Controller through email\n(DAController@sebi.gov.in) as well as through post.\ne. After receiving the Data Seeking Request form and the subsequent approval as per\nDelegation of Power, the Undertaking will be signed between the Data Analytics\nController and the Recipient Institute.\nf. After signing the undertaking, the Data will be shared through USB/ E-mail/\nSFTP/approved media."
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_10",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 10,
+    "total_chunks": 36,
+    "text": "SFTP/approved media.\ng. On Completion of Duration of project, Data Seeker needs to expunge the data.\nh. The Data Seeker needs to send a confirmation to the Data Analytics Controller within 5\n(five) days after the date of expunging the data as declared in the Data Seeking Request\ni. There are certain provision of Data extension and Inspection mentioned in point B and C\nrespectively.  Guidelines to Seek data\nGuidelines to Seek data\nFor External Circulation\n5 | P a g e"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_11",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 11,
+    "total_chunks": 36,
+    "text": "Guidelines to Seek data\nFor External Circulation\n5 | P a g e\nB. Provision to seek extension for Data retention\nAs per the data sharing policy Data Seekers shall mention the duration of retention of\nData for the proposed project and subsequently expunge that Data from their systems\nand inform SEBI.  However, if the Data seeker needs an extension for expunging the Data\nhe/ she/they need to go through the following set of procedure."
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_12",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 12,
+    "total_chunks": 36,
+    "text": "he/ she/they need to go through the following set of procedure.\nData seeker needs to place the request at least 20 days prior to date of expected\nexpunging of Data stating the reason of extension in detail to the Data Analytics\nController.\nData Analytics Controller is empowered to accept the request for extension for Data\nretention for maximum one calendar month. For any period more than one-month Data\nSeeker shall obtain required approvals from the concerned department which\napproved the project."
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_13",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 13,
+    "total_chunks": 36,
+    "text": "approved the project.\nOn rejection of extension request Data seeker shall expunge the Data as per the data\nsharing policy and intimate Data Analytics Controller.\nC. Provision of Inspection\nDuring the period of Data usage i.e. the period between Data sharing and expunging,\nData Analytics Controller may visit/nominate a person to visit the Data Seeker and inspect\nwhether the Data seeker is abiding by the confidentiality norms and also ascertain the"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_14",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 14,
+    "total_chunks": 36,
+    "text": "Data provided is not misused or being used for purposes other than for which the approval\nis granted. In case of any observed irregularity, appropriate action as per the prevalent\nlaws may be taken.\nFor External Circulation\n6 | P a g e\nAnnexure A: [Indicative List of SEBI Departments]\n1. CDMRD: Commodity Derivatives Market Regulation Department\n2. CFD: Corporation Finance Department\n3. DEPA: Department of Economic and Policy Analysis\n4. DDHS: Department of Debt and Hybrid Securities"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_15",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 15,
+    "total_chunks": 36,
+    "text": "4. DDHS: Department of Debt and Hybrid Securities\n5. EFD: Enforcement Department\n6. EAD: Enquiries and Adjudication Department\n7. GSD: General Services Department\n8. HRD: Human Resources Department\n9. ITD: Information Technology Department\n10. ISD: Integrated Surveillance Department\n11. IVD: Investigations Department\n12. IMD: Investment Management Department\n13. LAD: Legal Affairs Department\n14. MIRSD: Market Intermediaries Regulation and Supervision Department\n15. MRD: Market Regulation Department"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_16",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 16,
+    "total_chunks": 36,
+    "text": "15. MRD: Market Regulation Department\n16. OIAE: Office of Investor Assistance and Education\n17. FPI & C: Foreign Portfolio Investor and Custodians\nFor External Circulation\n7 | P a g e\nFor External Circulation\n8 | P a g e\nAnnexure B: [Sample Data Sharing Request Form]\nDATA SEEKING REQUEST FORM\nA: To Be Filled by Data Seeker (To be submitted at DAController@sebi.gov.in)\nInstitution/Regulator/SEBI Employee Name:\nWebsite:\nAuthorized Signatory of Institute /Regulator:"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_17",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 17,
+    "total_chunks": 36,
+    "text": "Website:\nAuthorized Signatory of Institute /Regulator:\nTitle of the Project/ activity for which the data is\nrequired to be shared:\nObjective/Purpose of the Project :#\n[Indicate how the project will benefit the Market]\nArea of Project/Activity *:\n[Related to which department of SEBI (Refer\nAnnexure A)]\nContact Person Name:\nContact No:\nEmail Id:\n(Official)\n10. Type of data: (Enclose data structure)#\n11. Period of data:\nFrom: DD/MM/YYYY\nTo: DD/MM/YYYY\n12. Duration for which the data will be kept: (To date)"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_18",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 18,
+    "total_chunks": 36,
+    "text": "12. Duration for which the data will be kept: (To date)\n13. Mode of data transmission:\nUSB/ E-mail/ SFTP/Clean data rooms/other\napproved media:\n14. Do you wish to publish project report:\n15. Do you envisage any Conflict of Interest with\nother organizations including SEBI w.r.t. to the\nData sought $\na. Participating Institute Name:\nb. Name:\nc. Contact No.:\nd. Email:\n#please attach separate sheet where required.\nName:\nSignature:\nDate:\n*Primary market, MFs/AIFs, Commodity Market , etc."
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_19",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 19,
+    "total_chunks": 36,
+    "text": "Date:\n*Primary market, MFs/AIFs, Commodity Market , etc.\n$ Data seeking organisations are required to inform SEBI if Conflict of Interest arises during the\nperiod for which data is sought.\nControl No:\nFor External Circulation\n9 | P a g e\nTerms and Condition\nThe data seeker is requested to submit the following two mandatory documents:\n1. A covering letter containing the statement of proposal containing not less than 500 words.\n2. A tabular format for the requested data clearly indicating the following:"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_20",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 20,
+    "total_chunks": 36,
+    "text": "a. Variables (on which data are requested). The variables have to be specific\nb. The frequency of the data,\nc. Period / span of data.\nUnless all three documents are available, i.e. covering letter, data request form and\nthe tabular format for requested data, the request would not be accepted for\nconsideration.\nFor Official Use only:\nB. Data Request Approved By (Data Custodian):\nName of the\nApprover(as per\nDesignation\nApproval Date\nOffice Note no.\nC. Recommendations of Expert Committee"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_21",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 21,
+    "total_chunks": 36,
+    "text": "Office Note no.\nC. Recommendations of Expert Committee\nD. Project Approved By:(Department Name)\nName of the Department\nOffice Note no.(Copy)\nApprover Signature\nE. Data Extraction and Validation by(ITD):\nControl No:\nFor External Circulation\n10 | P a g e\n1. Data Extraction date:\n2. Data Extracted by:\nName:\nDesignation:\nDate:\n3. Mode of Data Transfer:\nF. Data Confirmation Before Transmission\nSignature and Date\nName and designation\nG. Confirmation of Data Expunge Date(ITD)\nDate Expunge date:\n(dd/mm/yyyy)"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_22",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 22,
+    "total_chunks": 36,
+    "text": "Date Expunge date:\n(dd/mm/yyyy)\nConfirmation sent to:\nSignature:\nName and Designation:\nFor External Circulation\n11 | P a g e\nAnnexure C: [Undertaking of Confidentiality and Non-Disclosure]\nUNDERTAKING OF CONFIDENTIALITY AND NON-DISCLOSURE\nThis has reference to the request made to Securities and Exchange Board of India (SEBI) by\n<Recipient Organization through <Person Name> to undertake designated Project/Activity titled"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_23",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 23,
+    "total_chunks": 36,
+    "text": "<Title> Control No <control no>. In this context to ensure that the confidentiality of data is\nmaintained at all the times, it is required that an “Undertaking of confidentiality and non-\ndisclosure” is signed by <Recipient Organization> and <Person Name>.\nParties: “[<Recipient Institute>]” through <Recipient Official Name> (the Recipient Institute\nname and Name of the Recipient) and “[SEBI through Data Analytics Controller]” (the\nDiscloser, as may be nominated by SEBI from time to time)"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_24",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 24,
+    "total_chunks": 36,
+    "text": "Discloser, as may be nominated by SEBI from time to time)\n1. The Discloser on the request of the Recipient intends to share access to data records\n(the Information) with the Recipient for the <Project Title> (The Project Title).  The\nDiscloser will ensure all data to which access is shared with the Recipient is historical\ndata and adequately anonymized and in no way identifiable to a person. While adequate\ncare is taken to ensure the privacy of identity, in case Recipient, who has sought access"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_25",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 25,
+    "total_chunks": 36,
+    "text": "to data stumbles upon such identity implicitly, they should maintain it in confidence.\n2. The Recipient undertakes not to use the Information for any purpose except the stated\nPurpose. The Source of information would be adequately acknowledged in the research\nreport/paper, if any, published by the Recipient using the information accessed from the\nDiscloser.\n3. The Recipient undertakes to keep the Information secure and not to disclose or allow"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_26",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 26,
+    "total_chunks": 36,
+    "text": "access in any way to any third party and shall maintain its confidentiality in accordance\nwith the terms of this undertaking and as per the law applicable from time to time. The\nRecipient shall ensure that all data collected, maintained and analyzed by it, are at all\ntimes kept secure and fully and effectively protected against unauthorized access or\ndiscloser or transmission by accidental or intentional destruction, loss or damage. The"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_27",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 27,
+    "total_chunks": 36,
+    "text": "Recipient shall adopt and implement appropriate technical and organization security\nmeasures to protect data from any kind of unauthorized access by any person including\nits own employees and would be liable in case of any breach of confidentiality.\n4. The undertakings in clauses 2 and 3 above shall  apply to all of the Information disclosed\nby the Discloser to the Recipient, regardless of the way or form in which it is disclosed or\nrecorded but they would not apply to:"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_28",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 28,
+    "total_chunks": 36,
+    "text": "recorded but they would not apply to:\na) any information which is or in future comes into the public domain (unless as a result\nof the breach of this Undertaking); or\nb) Any information which is already in the public domain.\nFor External Circulation\n12 | P a g e\n5. The Recipient shall, at any time on request from the Discloser, return all copies and\nrecords of the Information to the Discloser and shall not retain any copies or records of"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_29",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 29,
+    "total_chunks": 36,
+    "text": "the Information. Any data kept in the computer systems in any format by all the user shall\nbe erased and a confirmation sent to the Discloser, on or before the date as intimated by\nthe discloser.\n6. Neither this Agreement nor the supply of any information grants the Recipient any license,\ninterest or right in respect of any intellectual property rights of the Discloser except the\nright to access and use the Information solely for the stated purpose."
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_30",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 30,
+    "total_chunks": 36,
+    "text": "7. In case, the Recipient is an organization, it shall obtain the similar undertaking (for their\nrecords) with all the authorized users of the data. The Recipient shall disclose the details\nof all the users of data of the Recipient organization to the discloser. Any\nmisuse/unauthorized use of information by any of the users of data shall render the\nRecipient liable under law.\n8. The undertakings in clauses 2 and 3 will continue in force indefinitely till such time the"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_31",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 31,
+    "total_chunks": 36,
+    "text": "confirmation is given under clause 5.The Recipient assumes all legal liability arising out\nof any precipitative action taken by such Recipient based on the data provided by the\nDiscloser.\n9. The Recipient agrees to allow and co-operate with SEBI officials during inspection\nundertaken to ensure appropriate usage of data or derivative thereof and the Recipient\nshall abide all the directions/instructions given by the Discloser as regards the usage of"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_32",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 32,
+    "total_chunks": 36,
+    "text": "the data or derivative(e.g. published paper, training material etc.) thereof.\n10. The Recipient agrees that in case it fails to maintain confidentiality of data or fails to abide\nby any clause of this undertaking or is found indulging in any kind of irregularity with\nregard to data usage or provides false/misleading information, the Recipient shall be\nsolely responsible and liable for all actions as per law prevalent at the relevant point of"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_33",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 33,
+    "total_chunks": 36,
+    "text": "time (Including the law which may came into force after signing this undertaking). Further,\nthe Recipient shall be liable to make good of any loss/damage caused to the Discloser\nfor any unauthorized use/misuse of the information by the Recipient and shall keep the\nDiscloser (and SEBI) indemnified for the same.\nFor External Circulation\n13 | P a g e\nController\n(On Behalf of SEBI)\nAuthorizing\n(Representing the\nInstitute)\nRecipient Person\n(Representing\nInstitute)\nDesignation\nFor External Circulation"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_34",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 34,
+    "total_chunks": 36,
+    "text": "(Representing\nInstitute)\nDesignation\nFor External Circulation\n14 | P a g e\nFor External Circulation\n15 | P a g e\nAnnexure D: [Flow of Control]\nDATA SHARING POLICY FLOW OF CONTROL\nData Sharing Policy\nClasses of Data to Be Shared\nInternal Data\nPublic Data\nRequest for Data as\nPer Annxeure B\nExpunge Data after Usage and Send Confirmation\nUndertaking and NDA as per Annexure C\nData Available On SEBI Website\nApproval of project by relevant Department as per the DoP\n[Refer Annexure A]\nData Analytics Controller"
+  },
+  {
+    "chunk_id": "guidelines-of-data-sharing-final_chunk_35",
+    "doc_id": "guidelines-of-data-sharing-final",
+    "title": "Guidelines for Data Sharing",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/pdf/guidelines-of-data-sharing-final.pdf",
+    "chunk_index": 35,
+    "total_chunks": 36,
+    "text": "[Refer Annexure A]\nData Analytics Controller\nEmail: DAController@sebi.gov.in\nData Analytics Controller\nEmail: DAController@sebi.gov.in\nTransmission of Data"
+  },
+  {
+    "chunk_id": "Requirements%20for%20filing%20objections%20wrt%20properties%20of%20PACL%20Limited_chunk_0",
+    "doc_id": "Requirements%20for%20filing%20objections%20wrt%20properties%20of%20PACL%20Limited",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/documents/Requirements%20for%20filing%20objections%20wrt%20properties%20of%20PACL%20Limited.pdf",
+    "chunk_index": 0,
+    "total_chunks": 6,
+    "text": "Requirements for filing objections with respect to properties of PACL Limited\nRequirements\nObjection petition with respect to a property shall be sent in hard copy at the\nfollowing address:\nNodal Officer, Justice (Retd.) R. M. Lodha Committee (in the matter of PACL\nLimited), SEBI, Plot No. C7, G Block, Bandra Kurla Complex, Bandra (East),\nMumbai - 400051\nObjection petition shall be annexed with particulars of objector viz: name,\nattested copy of PAN Card (attested copy of Aadhar/Passport in case objector is"
+  },
+  {
+    "chunk_id": "Requirements%20for%20filing%20objections%20wrt%20properties%20of%20PACL%20Limited_chunk_1",
+    "doc_id": "Requirements%20for%20filing%20objections%20wrt%20properties%20of%20PACL%20Limited",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/documents/Requirements%20for%20filing%20objections%20wrt%20properties%20of%20PACL%20Limited.pdf",
+    "chunk_index": 1,
+    "total_chunks": 6,
+    "text": "not assessable to Income Tax), attested copy of proof of address, telephone\nnumber(s) and email ID(s).\nIn case of objection petition filed by body corporates, authority letter alongwith\nresolution authorising the person signing the objection shall be annexed, in\noriginal, with the objection petition. Similarly, in case of individuals, where\nobjection petition is signed by the person other than the objector or the advocate,\nauthority letter/vakalatnama in favour such person/advocate in original, shall"
+  },
+  {
+    "chunk_id": "Requirements%20for%20filing%20objections%20wrt%20properties%20of%20PACL%20Limited_chunk_2",
+    "doc_id": "Requirements%20for%20filing%20objections%20wrt%20properties%20of%20PACL%20Limited",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/documents/Requirements%20for%20filing%20objections%20wrt%20properties%20of%20PACL%20Limited.pdf",
+    "chunk_index": 2,
+    "total_chunks": 6,
+    "text": "be annexed with the objection petition. However, in all such cases, particulars of\nobjectors, as mentioned in S.no. 2 above, shall be annexed with the objection\nObjection petition shall be in English language.\nObjection petition shall contain legible copies of all the documents.\nObjection petition (including annexures) shall be duly indexed and paginated.\nObjection petition shall necessarily mention the MR number of the property in\nrespect of which objection is being raised."
+  },
+  {
+    "chunk_id": "Requirements%20for%20filing%20objections%20wrt%20properties%20of%20PACL%20Limited_chunk_3",
+    "doc_id": "Requirements%20for%20filing%20objections%20wrt%20properties%20of%20PACL%20Limited",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/documents/Requirements%20for%20filing%20objections%20wrt%20properties%20of%20PACL%20Limited.pdf",
+    "chunk_index": 3,
+    "total_chunks": 6,
+    "text": "respect of which objection is being raised.\nObjection petition shall contain certified copy of all the documents relied upon, as\nannexures.\nIn case the documents relied upon by the objector are not in English language,\nthen objection petition shall also be annexed with English translation of all such\ndocuments, in original.\n10.   All translated documents shall be accompanied by a certificate from the\ntranslator of the document to the effect that translated copy is the true and correct"
+  },
+  {
+    "chunk_id": "Requirements%20for%20filing%20objections%20wrt%20properties%20of%20PACL%20Limited_chunk_4",
+    "doc_id": "Requirements%20for%20filing%20objections%20wrt%20properties%20of%20PACL%20Limited",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/documents/Requirements%20for%20filing%20objections%20wrt%20properties%20of%20PACL%20Limited.pdf",
+    "chunk_index": 4,
+    "total_chunks": 6,
+    "text": "version of the document which shall be annexed with the objection petition.\n11.   Objection petition shall also be annexed with the contact details of the translator\nof the documents, viz: address, telephone number, email ID, etc., proof of address\nand proof of identity of the translator.\n12.   Scanned copy of the objection petition, including soft copy of the objection\npetition in word format, alongwith all the annexures, shall also be emailed at\nobjectionpacl@sebi.gov.in"
+  },
+  {
+    "chunk_id": "Requirements%20for%20filing%20objections%20wrt%20properties%20of%20PACL%20Limited_chunk_5",
+    "doc_id": "Requirements%20for%20filing%20objections%20wrt%20properties%20of%20PACL%20Limited",
+    "title": "",
+    "source": "SEBI",
+    "url": "https://www.sebi.gov.in/documents/Requirements%20for%20filing%20objections%20wrt%20properties%20of%20PACL%20Limited.pdf",
+    "chunk_index": 5,
+    "total_chunks": 6,
+    "text": "objectionpacl@sebi.gov.in\n13.   Objection petition shall also contain the contact details of the person filing the\nobjection petition, name, address, telephone number(s) and email ID(s)."
+  }
+]
