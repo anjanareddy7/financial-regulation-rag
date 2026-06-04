@@ -13,7 +13,7 @@ def extract_pdf(pdf_path: Path) -> str:
     doc.close()
     return "\n".join(pages)
 
-def process_all_pdfs(raw_dirs: list = ["data/raw/rbi", "data/raw/sebi"],
+def process_all_pdfs(raw_dirs: list = ["data/raw/arxiv"],
                      out_dir: str = "data/processed"):
     Path(out_dir).mkdir(parents=True, exist_ok=True)
     skipped = 0

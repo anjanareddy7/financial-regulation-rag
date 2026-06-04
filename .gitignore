@@ -6,3 +6,4 @@ data/vectorstore/
 data/raw/
 *.safetensors
 .cache/
+data/raw/arxiv/

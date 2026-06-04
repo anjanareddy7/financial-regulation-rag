@@ -149,8 +149,7 @@ def query_pipeline(query: str):
               f"(rerank: {chunk['rerank_score']} | rrf: {chunk.get('rrf_score', 'n/a')})")
 
     return {"query": query, "answer": response, "chunks": reranked}
-
 if __name__ == "__main__":
-    query_pipeline("What are the cybersecurity requirements for SEBI regulated entities?")
+    query_pipeline("What are the main approaches to reduce hallucination in large language models?")
     print("\n" + "=" * 60 + "\n")
-    query_pipeline("What are the audit submission timelines under CSCRF?")
+    query_pipeline("How does retrieval augmented generation improve LLM accuracy?")

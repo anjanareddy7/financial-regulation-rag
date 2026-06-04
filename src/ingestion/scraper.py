@@ -1,83 +1,100 @@
-import requests
+import arxiv
 import json
 import time
+import requests
 from pathlib import Path
-from bs4 import BeautifulSoup
-from tqdm import tqdm
 
-HEADERS = {"User-Agent": "Mozilla/5.0"}
+TOPICS = [
+    "retrieval augmented generation",
+    "large language models hallucination",
+    "LLM evaluation benchmarks",
+    "vector search embeddings semantic",
+    "transformer fine tuning instruction"
+]
 
-def get_rbi_links_for_year(year: int) -> list:
-    url = f"https://www.rbi.org.in/Scripts/BS_ViewMasCirculardetails.aspx?yr={year}"
-    resp = requests.get(url, headers=HEADERS, timeout=15)
-    soup = BeautifulSoup(resp.text, "html.parser")
-    links = soup.find_all("a", href=True)
-    
-    results = []
-    for a in links:
-        href = a.get("href", "")
-        if "rbidocs" in href and ".PDF" in href.upper():
-            results.append({
-                "url": href if href.startswith("http") else "https:" + href,
-                "title": a.text.strip(),
-                "source": "RBI",
-                "year": year
-            })
-    return results
+PAPERS_PER_TOPIC = 60
 
-def scrape_rbi(out_dir: str = "data/raw/rbi", years: list = None):
-    if years is None:
-        years = [2019, 2020, 2021, 2022, 2023, 2024]
-    
+def download_pdf(url: str, out_path: Path) -> bool:
+    try:
+        headers = {"User-Agent": "Mozilla/5.0 (research project)"}
+        resp = requests.get(url, headers=headers, timeout=30)
+        resp.raise_for_status()
+        out_path.write_bytes(resp.content)
+        return True
+    except Exception as e:
+        print(f"  Download failed: {e}")
+        return False
+
+def scrape_arxiv(out_dir: str = "data/raw/arxiv", papers_per_topic: int = PAPERS_PER_TOPIC):
     Path(out_dir).mkdir(parents=True, exist_ok=True)
-    all_links = []
 
-    print("Collecting RBI circular links...")
-    for year in years:
-        links = get_rbi_links_for_year(year)
-        print(f"  {year}: {len(links)} circulars")
-        all_links.extend(links)
-        time.sleep(0.5)
+    client = arxiv.Client(
+        page_size=10,
+        delay_seconds=8,
+        num_retries=3
+    )
 
-    print(f"\nTotal: {len(all_links)} circulars found")
-    download_pdfs(all_links, out_dir)
+    seen_ids = set()
+    total = 0
 
-def download_pdfs(links: list, out_dir: str):
-    Path(out_dir).mkdir(parents=True, exist_ok=True)
-    failed = 0
+    for topic in TOPICS:
+        print(f"\nSearching: '{topic}'")
+        time.sleep(15)  # pause before each topic to avoid rate limit
 
-    for item in tqdm(links, desc=f"Downloading PDFs"):
-        url = item["url"]
-        filename = url.split("/")[-1]
-        if not filename.lower().endswith(".pdf"):
-            filename += ".pdf"
+        search = arxiv.Search(
+            query=topic,
+            max_results=papers_per_topic,
+            sort_by=arxiv.SortCriterion.Relevance
+        )
 
-        out_path = Path(out_dir) / filename
-        if out_path.exists():
-            continue
-
+        topic_count = 0
         try:
-            resp = requests.get(url, headers=HEADERS, timeout=20)
-            resp.raise_for_status()
-            out_path.write_bytes(resp.content)
+            for paper in client.results(search):
+                paper_id = paper.entry_id.split("/")[-1]
 
-            meta_path = out_path.with_suffix(".json")
-            meta_path.write_text(
-                json.dumps({
-                    "title": item.get("title", ""),
-                    "source": item.get("source", "RBI"),
-                    "url": url,
-                    "year": item.get("year", ""),
-                    "filename": filename
-                }, ensure_ascii=False),
-                encoding="utf-8"
-            )
+                if paper_id in seen_ids:
+                    continue
+                seen_ids.add(paper_id)
+
+                pdf_path = Path(out_dir) / f"{paper_id}.pdf"
+                meta_path = Path(out_dir) / f"{paper_id}.json"
+
+                if pdf_path.exists():
+                    topic_count += 1
+                    total += 1
+                    continue
+
+                # use requests to download instead of paper.download_pdf()
+                pdf_url = f"https://arxiv.org/pdf/{paper_id}"
+                success = download_pdf(pdf_url, pdf_path)
+
+                if success:
+                    meta = {
+                        "doc_id": paper_id,
+                        "title": paper.title,
+                        "authors": [a.name for a in paper.authors[:3]],
+                        "published": str(paper.published.date()),
+                        "topic": topic,
+                        "url": pdf_url,
+                        "abstract": paper.summary[:500]
+                    }
+                    meta_path.write_text(
+                        json.dumps(meta, ensure_ascii=False, indent=2),
+                        encoding="utf-8"
+                    )
+                    topic_count += 1
+                    total += 1
+                    print(f"  [{topic_count}] {paper.title[:70]}")
+
+                time.sleep(5)  # respectful delay between downloads
+
         except Exception as e:
-            print(f"\nFailed: {url} — {e}")
-            failed += 1
-        time.sleep(0.3)
+            print(f"  Search failed: {e}")
+            time.sleep(30)  # longer wait if rate limited
 
-    print(f"\nDone. {len(links) - failed} downloaded, {failed} failed.")
+        print(f"  Done: {topic_count} papers for '{topic}'")
+
+    print(f"\nTotal papers downloaded: {total}")
 
 if __name__ == "__main__":
-    scrape_rbi(years=[2019, 2020, 2021, 2022, 2023, 2024])
+    scrape_arxiv()
