@@ -78,7 +78,7 @@ Evaluated on 30 manually curated questions using LLM-as-judge scoring:
 | API | FastAPI |
 | UI | Streamlit |
 | Dataset | jamescalam/ai-arxiv (423 papers) |
-
+| Observability | Langfuse |
 ---
 
 ## Project Structure
@@ -219,7 +219,14 @@ python src/eval/evaluate.py
 # Score with LLM-as-judge
 python src/eval/score.py
 ```
+## Inference Backend Comparison
 
+| Backend | Model | Avg Latency | Cost | Privacy |
+|---------|-------|-------------|------|---------|
+| Groq (cloud) | llama-3.3-70b-versatile | 0.24s | Free tier | Data sent to API |
+| Ollama (local) | Mistral-7B | 4.17s | Free | Fully private |
+
+Benchmarked on Google Colab T4 GPU. Switch backends via `INFERENCE_BACKEND=groq/ollama` in `.env`.
 ---
 
 ## What I'd Add Next

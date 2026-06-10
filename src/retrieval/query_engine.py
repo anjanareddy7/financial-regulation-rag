@@ -1,5 +1,6 @@
 import os
 import json
+import requests
 import chromadb
 from pathlib import Path
 from dotenv import load_dotenv
@@ -14,7 +15,7 @@ RERANKER_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
 COLLECTION_NAME = "rbi_sebi_circulars"
 GROQ_MODEL = "llama-3.3-70b-versatile"
 
-SYSTEM_PROMPT = """You are a financial regulation assistant specializing in SEBI and RBI guidelines.
+SYSTEM_PROMPT = """You are an AI research assistant specializing in machine learning and NLP papers.
 
 STRICT RULES:
 1. Answer ONLY using the provided context chunks.
@@ -101,7 +102,7 @@ def build_context(chunks: list) -> str:
         context += f"\n[Chunk {i+1}] Source: {chunk['source']}\n{chunk['text']}\n"
     return context
 
-def answer_query(query: str, chunks: list, groq_client: Groq) -> str:
+def answer_query_groq(query: str, chunks: list, groq_client: Groq) -> str:
     context = build_context(chunks)
     prompt = f"""Context:
 {context}
@@ -119,11 +120,33 @@ Answer (cite chunks used):"""
     )
     return response.choices[0].message.content
 
+def answer_query_ollama(query: str, chunks: list, ollama_url: str) -> str:
+    context = build_context(chunks)
+    prompt = f"""You are an AI research assistant.
+Answer ONLY using the provided context chunks.
+Cite chunks using [Chunk X] format.
+If the answer is not in the context, respond with: "I cannot find this in the provided documents."
+
+Context:
+{context}
+
+Question: {query}
+
+Answer (cite chunks used):"""
+    response = requests.post(
+        f"{ollama_url}/api/generate",
+        json={
+            "model": "mistral",
+            "prompt": prompt,
+            "stream": False
+        },
+        timeout=60
+    )
+    return response.json()["response"]
+
 def query_pipeline(query: str):
-    # load models once
     embed_model = SentenceTransformer(MODEL_NAME)
     reranker = CrossEncoder(RERANKER_MODEL, max_length=512)
-    groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
     client = chromadb.PersistentClient(path="data/vectorstore")
     collection = client.get_collection(COLLECTION_NAME)
     chunks = load_chunks()
@@ -137,8 +160,17 @@ def query_pipeline(query: str):
     # step 2: rerank
     reranked = rerank(query, fused, reranker, top_n=5)
 
-    # step 3: answer
-    response = answer_query(query, reranked, groq_client)
+    # step 3: answer with configurable backend
+    backend = os.getenv("INFERENCE_BACKEND", "groq")
+
+    if backend == "ollama":
+        ollama_url = os.getenv("OLLAMA_URL", "http://localhost:11434")
+        response = answer_query_ollama(query, reranked, ollama_url)
+        print(f"[Backend: Ollama/Mistral]")
+    else:
+        groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+        response = answer_query_groq(query, reranked, groq_client)
+        print(f"[Backend: Groq/llama-3.3-70b]")
 
     print(f"\nQuery: {query}")
     print("-" * 60)
@@ -149,7 +181,6 @@ def query_pipeline(query: str):
               f"(rerank: {chunk['rerank_score']} | rrf: {chunk.get('rrf_score', 'n/a')})")
 
     return {"query": query, "answer": response, "chunks": reranked}
+
 if __name__ == "__main__":
-    query_pipeline("What are the main approaches to reduce hallucination in large language models?")
-    print("\n" + "=" * 60 + "\n")
-    query_pipeline("How does retrieval augmented generation improve LLM accuracy?")
+    query_pipeline("How does retrieval augmented generation reduce hallucination?")
