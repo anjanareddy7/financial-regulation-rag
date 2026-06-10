@@ -9,8 +9,17 @@ from dotenv import load_dotenv
 from rank_bm25 import BM25Okapi
 from sentence_transformers import SentenceTransformer, CrossEncoder
 from groq import Groq
+from langfuse import Langfuse
 
 load_dotenv()
+
+langfuse = Langfuse(
+    public_key=os.getenv("LANGFUSE_PUBLIC_KEY"),
+    secret_key=os.getenv("LANGFUSE_SECRET_KEY"),
+    host=os.getenv("LANGFUSE_BASE_URL")
+)
+print(f"Langfuse initialized: {type(langfuse)}")
+print(f"Has trace: {hasattr(langfuse, 'trace')}")
 
 MODEL_NAME = "all-MiniLM-L6-v2"
 RERANKER_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
@@ -160,22 +169,61 @@ def query(request: QueryRequest):
     if not request.question.strip():
         raise HTTPException(status_code=400, detail="Question cannot be empty")
 
-    vec_hits = vector_search(request.question, n=10)
-    bm25_hits = bm25_search(request.question, n=10)
-    fused = reciprocal_rank_fusion(vec_hits, bm25_hits)[:10]
-    reranked = rerank(request.question, fused, top_n=request.top_k)
-    answer = get_answer(request.question, reranked)
+    try:
+        # create trace using new Langfuse API
+        trace = langfuse.trace(
+            name="rag-query",
+            input={"question": request.question}
+        )
 
-    sources = [ChunkSource(
-        chunk_id=c["chunk_id"],
-        source=c["source"],
-        url=c.get("url", ""),
-        rerank_score=c["rerank_score"],
-        text_preview=c["text"][:200]
-    ) for c in reranked]
+        # step 1: hybrid retrieval
+        vec_hits = vector_search(request.question, n=10)
+        bm25_hits = bm25_search(request.question, n=10)
+        fused = reciprocal_rank_fusion(vec_hits, bm25_hits)[:10]
 
-    return QueryResponse(
-        question=request.question,
-        answer=answer,
-        sources=sources
-    )
+        trace.span(
+            name="hybrid-retrieval",
+            output={"chunks_retrieved": len(fused)}
+        )
+
+        # step 2: reranking
+        reranked = rerank(request.question, fused, top_n=request.top_k)
+
+        trace.span(
+            name="reranking",
+            output={
+                "chunks_after_rerank": len(reranked),
+                "top_score": reranked[0]["rerank_score"] if reranked else 0
+            }
+        )
+
+        # step 3: generation
+        answer = get_answer(request.question, reranked)
+        refused = "I cannot find this in the provided documents" in answer
+
+        trace.span(
+            name="llm-generation",
+            output={
+                "answer_preview": answer[:200],
+                "refused": refused
+            }
+        )
+
+        langfuse.flush()
+
+        sources = [ChunkSource(
+            chunk_id=c["chunk_id"],
+            source=c["source"],
+            url=c.get("url", ""),
+            rerank_score=c["rerank_score"],
+            text_preview=c["text"][:200]
+        ) for c in reranked]
+
+        return QueryResponse(
+            question=request.question,
+            answer=answer,
+            sources=sources
+        )
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
